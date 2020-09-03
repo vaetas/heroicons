@@ -10,7 +10,7 @@ void main(List<String> arguments) {
 
   names.forEach((element) {
     print(
-        "const HeroIcons.${makeCamelCase(element.split('.').first)}({this.color,}) : icon = 'assets/$element';");
+        "const HeroIcons.${makeCamelCase(element.split('.').first)}({this.color,this.size,}) : icon = 'assets/$element';");
   });
 }
 
