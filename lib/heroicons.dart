@@ -1142,7 +1142,7 @@ class HeroIcons extends StatelessWidget {
   Widget build(BuildContext context) {
     return SvgPicture.asset(
       'packages/heroicons/$icon',
-      color: color ?? Theme.of(context).iconTheme.color,
+      color: color ?? IconTheme.of(context).color,
       width: size,
       height: size,
       alignment: Alignment.center,
