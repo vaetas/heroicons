@@ -554,9 +554,9 @@ class HeroIcons extends StatelessWidget {
 
   final String icon;
 
-  final Color color;
+  final Color? color;
 
-  final double size;
+  final double? size;
 
   @override
   Widget build(BuildContext context) {
