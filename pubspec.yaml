@@ -18,7 +18,8 @@ dev_dependencies:
     sdk: flutter
   code_builder: ^3.6.0
   dart_style: ^1.3.14
-  recase: ^3.0.1
+  path: ^1.8.0
+  recase: ^4.0.0-nullsafety.0
 
 flutter:
   assets:

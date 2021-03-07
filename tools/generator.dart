@@ -1,12 +1,14 @@
+// @dart=2.9
 import 'dart:io';
 
 import 'package:code_builder/code_builder.dart';
 import 'package:dart_style/dart_style.dart';
 import 'package:recase/recase.dart';
+import 'package:path/path.dart' as p;
 
 Future<void> main() async {
   final names = _getFileNames();
-  final file = File(r"lib\heroicons.dart");
+  final file = File(p.join('lib', 'heroicons.dart'));
 
   final iconClass = Class(
     (b) => b
@@ -20,11 +22,11 @@ Future<void> main() async {
           }),
           Field((b) {
             b.name = 'color';
-            b.type = Reference('final Color');
+            b.type = Reference('final Color?');
           }),
           Field((b) {
             b.name = 'size';
-            b.type = Reference('final double');
+            b.type = Reference('final double?');
           }),
         ],
       )
@@ -96,7 +98,7 @@ Future<void> main() async {
 
 List<String> _getFileNames() {
   print('Generating icon class');
-  final files = Directory(r'.\assets\outline\').listSync();
+  final files = Directory(p.join('assets', 'outline')).listSync();
   return files
       .map((e) => e.name)
       .where((element) => element.contains('.svg'))
