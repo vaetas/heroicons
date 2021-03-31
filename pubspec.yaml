@@ -1,6 +1,6 @@
 name: heroicons
 description: Easily use HeroIcons set of SVG icons in your Flutter app. Only outlined version is available right now.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/vaetas/heroicons
 
 environment:
