@@ -9,18 +9,19 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-          primarySwatch: Colors.blue,
-          visualDensity: VisualDensity.adaptivePlatformDensity,
-          iconTheme: IconThemeData(
-            color: Colors.red,
-          )),
+        primarySwatch: Colors.blue,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+        iconTheme: IconThemeData(
+          color: Colors.red,
+        ),
+      ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({Key? key, required this.title}) : super(key: key);
 
   final String title;
 
@@ -41,9 +42,9 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              HeroIcons.arrowLeft(),
-              HeroIcons.arrowRight(),
-              HeroIcons.calendar(),
+              HeroIcon(HeroIcons.arrowLeft),
+              HeroIcon(HeroIcons.arrowRight),
+              HeroIcon(HeroIcons.calendar),
             ],
           ),
         ),
