@@ -22,10 +22,12 @@ Future<void> main() async {
           ...names.map((fileName) {
             return Field((b) {
               final name = p.basenameWithoutExtension(fileName);
-              b.name = ReCase(name).camelCase;
+              final recase = ReCase(name);
+              b.name = recase.camelCase;
               b.assignment = Code("HeroIcons._('$name')");
               b.modifier = FieldModifier.constant;
               b.static = true;
+              b.docs.add('/// ${recase.titleCase} icon');
             });
           }),
         ],
