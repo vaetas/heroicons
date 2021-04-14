@@ -161,6 +161,9 @@ class HeroIcons {
   /// Chat Alt 2 icon
   static const chatAlt2 = HeroIcons._('chat-alt-2');
 
+  /// Arrow Sm Up icon
+  static const arrowSmUp = HeroIcons._('arrow-sm-up');
+
   /// Chevron Right icon
   static const chevronRight = HeroIcons._('chevron-right');
 
@@ -217,6 +220,9 @@ class HeroIcons {
 
   /// Location Marker icon
   static const locationMarker = HeroIcons._('location-marker');
+
+  /// Arrow Sm Down icon
+  static const arrowSmDown = HeroIcons._('arrow-sm-down');
 
   /// Server icon
   static const server = HeroIcons._('server');
@@ -323,8 +329,14 @@ class HeroIcons {
   /// User Add icon
   static const userAdd = HeroIcons._('user-add');
 
+  /// Arrow Sm Left icon
+  static const arrowSmLeft = HeroIcons._('arrow-sm-left');
+
   /// Zoom In icon
   static const zoomIn = HeroIcons._('zoom-in');
+
+  /// Arrow Sm Right icon
+  static const arrowSmRight = HeroIcons._('arrow-sm-right');
 
   /// Cube Transparent icon
   static const cubeTransparent = HeroIcons._('cube-transparent');

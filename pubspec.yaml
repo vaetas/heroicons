@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_svg: ^0.21.0-nullsafety.0
+  flutter_svg: ^0.21.0+1
   path: ^1.8.0
 
 dev_dependencies:
@@ -22,3 +22,4 @@ flutter:
   assets:
     - assets/
     - assets/outline/
+    - assets/solid/

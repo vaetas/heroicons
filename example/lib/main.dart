@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:heroicons/heroicons.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const ExampleApp());
 
-class MyApp extends StatelessWidget {
+class ExampleApp extends StatelessWidget {
+  const ExampleApp();
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -45,6 +47,9 @@ class _MyHomePageState extends State<MyHomePage> {
               HeroIcon(HeroIcons.arrowLeft),
               HeroIcon(HeroIcons.arrowRight),
               HeroIcon(HeroIcons.calendar),
+              HeroIcon(HeroIcons.arrowLeft, solid: true),
+              HeroIcon(HeroIcons.arrowRight, solid: true),
+              HeroIcon(HeroIcons.calendar, solid: true),
             ],
           ),
         ),
