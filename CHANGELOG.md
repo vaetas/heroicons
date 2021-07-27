@@ -1,3 +1,8 @@
+## 0.3.0 - 2021-07-27
+
+* feat: add script to fetch icons from HeroIcons original repository
+* chore: update dev dependencies
+
 ## 0.2.1 - 2021-05-19
 
 * chore: update dependencies
