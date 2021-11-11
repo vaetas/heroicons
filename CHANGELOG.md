@@ -1,3 +1,8 @@
+## 0.4.0 - 2021-11-11
+
+* fix: update dependencies
+* fix: update icons
+
 ## 0.3.0 - 2021-07-27
 
 * feat: add script to fetch icons from HeroIcons original repository
