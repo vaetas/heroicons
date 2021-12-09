@@ -21,24 +21,30 @@ class HeroIcon extends StatelessWidget {
     this.color,
     this.size,
     this.solid = false,
+    // this.strokeWidth,
   });
 
   final HeroIcons icon;
   final Color? color;
   final double? size;
   final bool solid;
+  // final double? strokeWidth;
 
   @override
   Widget build(BuildContext context) {
+    final iconTheme = IconTheme.of(context);
+    final double iconSize = size ?? iconTheme.size;
+
     final path = p.join(
       'packages/heroicons/assets/${solid ? 'solid' : 'outline'}/',
       icon.name,
     );
+
     return SvgPicture.asset(
       '$path.svg',
-      color: color ?? IconTheme.of(context).color,
-      width: size,
-      height: size,
+      color: color ?? iconTheme.color,
+      width: iconSize,
+      height: iconSize,
       alignment: Alignment.center,
     );
   }
