@@ -1,3 +1,9 @@
+## 0.5.0 - 2022-04-19
+
+* chore: update dependencies
+* chore: update icons
+* chore: update example
+
 ## 0.4.0 - 2021-11-11
 
 * fix: update dependencies
