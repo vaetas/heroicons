@@ -4,7 +4,7 @@ import 'package:heroicons/heroicons.dart';
 void main() => runApp(const ExampleApp());
 
 class ExampleApp extends StatelessWidget {
-  const ExampleApp();
+  const ExampleApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -13,17 +13,20 @@ class ExampleApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
-        iconTheme: IconThemeData(
+        iconTheme: const IconThemeData(
           color: Colors.red,
         ),
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'HeroIcons'),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key? key, required this.title}) : super(key: key);
+  const MyHomePage({
+    Key? key,
+    required this.title,
+  }) : super(key: key);
 
   final String title;
 
@@ -40,16 +43,23 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: IconTheme(
-          data: IconThemeData(color: Colors.black),
+          data: const IconThemeData(color: Colors.black),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
+            children: const <Widget>[
               HeroIcon(HeroIcons.arrowLeft),
               HeroIcon(HeroIcons.arrowRight),
               HeroIcon(HeroIcons.calendar),
               HeroIcon(HeroIcons.arrowLeft, solid: true),
               HeroIcon(HeroIcons.arrowRight, solid: true),
               HeroIcon(HeroIcons.calendar, solid: true),
+              IconTheme(
+                data: IconThemeData(
+                  size: 40,
+                  color: Colors.blue,
+                ),
+                child: HeroIcon(HeroIcons.calendar, solid: true),
+              ),
             ],
           ),
         ),
