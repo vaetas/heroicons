@@ -1,3 +1,8 @@
+## 0.6.0 - 2022-06-15
+
+* feat: use size from `IconTheme` if none is given
+* chore: update dependencies
+
 ## 0.5.0 - 2022-04-19
 
 * chore: update dependencies
