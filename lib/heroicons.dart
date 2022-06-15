@@ -37,8 +37,8 @@ class HeroIcon extends StatelessWidget {
     return SvgPicture.asset(
       '$path.svg',
       color: color ?? IconTheme.of(context).color,
-      width: size,
-      height: size,
+      width: size ?? IconTheme.of(context).size,
+      height: size ?? IconTheme.of(context).size,
       alignment: Alignment.center,
     );
   }
