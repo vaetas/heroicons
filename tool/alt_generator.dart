@@ -30,6 +30,19 @@ class HeroIcons {
   }
 
   buffer.writeln('}');
+  buffer.writeln('');
+
+  /// Mapping for icon names
+  buffer.writeln('const Map<String, String> heroiconsMapping = <String, String>{');
+  for (final FileSystemEntity file in entities) {
+    final String filename = file.path.split('/').last;
+    if (filename.contains('.svg')) {
+      final ReCase reCase = ReCase(filename.replaceAll('.svg', ''));
+      buffer.writeln(
+          "  '${reCase.camelCase}': '${filename.replaceAll('.svg', '')}',");
+    }
+  }
+  buffer.writeln('};');
 
   /// Write the file
   final File file = File('lib/src/icons.dart');

@@ -9,16 +9,13 @@ class HeroIcons {
   static const HeroIcons academicCap = HeroIcons._('academic-cap');
 
   /// Adjustments Horizontal icon
-  static const HeroIcons adjustmentsHorizontal =
-      HeroIcons._('adjustments-horizontal');
+  static const HeroIcons adjustmentsHorizontal = HeroIcons._('adjustments-horizontal');
 
   /// Adjustments Vertical icon
-  static const HeroIcons adjustmentsVertical =
-      HeroIcons._('adjustments-vertical');
+  static const HeroIcons adjustmentsVertical = HeroIcons._('adjustments-vertical');
 
   /// Archive Box Arrow Down icon
-  static const HeroIcons archiveBoxArrowDown =
-      HeroIcons._('archive-box-arrow-down');
+  static const HeroIcons archiveBoxArrowDown = HeroIcons._('archive-box-arrow-down');
 
   /// Archive Box X Mark icon
   static const HeroIcons archiveBoxXMark = HeroIcons._('archive-box-x-mark');
@@ -33,12 +30,10 @@ class HeroIcons {
   static const HeroIcons arrowDownLeft = HeroIcons._('arrow-down-left');
 
   /// Arrow Down On Square Stack icon
-  static const HeroIcons arrowDownOnSquareStack =
-      HeroIcons._('arrow-down-on-square-stack');
+  static const HeroIcons arrowDownOnSquareStack = HeroIcons._('arrow-down-on-square-stack');
 
   /// Arrow Down On Square icon
-  static const HeroIcons arrowDownOnSquare =
-      HeroIcons._('arrow-down-on-square');
+  static const HeroIcons arrowDownOnSquare = HeroIcons._('arrow-down-on-square');
 
   /// Arrow Down Right icon
   static const HeroIcons arrowDownRight = HeroIcons._('arrow-down-right');
@@ -53,8 +48,7 @@ class HeroIcons {
   static const HeroIcons arrowLeftCircle = HeroIcons._('arrow-left-circle');
 
   /// Arrow Left On Rectangle icon
-  static const HeroIcons arrowLeftOnRectangle =
-      HeroIcons._('arrow-left-on-rectangle');
+  static const HeroIcons arrowLeftOnRectangle = HeroIcons._('arrow-left-on-rectangle');
 
   /// Arrow Left icon
   static const HeroIcons arrowLeft = HeroIcons._('arrow-left');
@@ -72,8 +66,7 @@ class HeroIcons {
   static const HeroIcons arrowLongUp = HeroIcons._('arrow-long-up');
 
   /// Arrow Path Rounded Square icon
-  static const HeroIcons arrowPathRoundedSquare =
-      HeroIcons._('arrow-path-rounded-square');
+  static const HeroIcons arrowPathRoundedSquare = HeroIcons._('arrow-path-rounded-square');
 
   /// Arrow Path icon
   static const HeroIcons arrowPath = HeroIcons._('arrow-path');
@@ -82,8 +75,7 @@ class HeroIcons {
   static const HeroIcons arrowRightCircle = HeroIcons._('arrow-right-circle');
 
   /// Arrow Right On Rectangle icon
-  static const HeroIcons arrowRightOnRectangle =
-      HeroIcons._('arrow-right-on-rectangle');
+  static const HeroIcons arrowRightOnRectangle = HeroIcons._('arrow-right-on-rectangle');
 
   /// Arrow Right icon
   static const HeroIcons arrowRight = HeroIcons._('arrow-right');
@@ -101,8 +93,7 @@ class HeroIcons {
   static const HeroIcons arrowSmallUp = HeroIcons._('arrow-small-up');
 
   /// Arrow Top Right On Square icon
-  static const HeroIcons arrowTopRightOnSquare =
-      HeroIcons._('arrow-top-right-on-square');
+  static const HeroIcons arrowTopRightOnSquare = HeroIcons._('arrow-top-right-on-square');
 
   /// Arrow Trending Down icon
   static const HeroIcons arrowTrendingDown = HeroIcons._('arrow-trending-down');
@@ -117,8 +108,7 @@ class HeroIcons {
   static const HeroIcons arrowUpLeft = HeroIcons._('arrow-up-left');
 
   /// Arrow Up On Square Stack icon
-  static const HeroIcons arrowUpOnSquareStack =
-      HeroIcons._('arrow-up-on-square-stack');
+  static const HeroIcons arrowUpOnSquareStack = HeroIcons._('arrow-up-on-square-stack');
 
   /// Arrow Up On Square icon
   static const HeroIcons arrowUpOnSquare = HeroIcons._('arrow-up-on-square');
@@ -250,8 +240,7 @@ class HeroIcons {
   static const HeroIcons buildingOffice = HeroIcons._('building-office');
 
   /// Building Storefront icon
-  static const HeroIcons buildingStorefront =
-      HeroIcons._('building-storefront');
+  static const HeroIcons buildingStorefront = HeroIcons._('building-storefront');
 
   /// Cake icon
   static const HeroIcons cake = HeroIcons._('cake');
@@ -278,31 +267,25 @@ class HeroIcons {
   static const HeroIcons chartPie = HeroIcons._('chart-pie');
 
   /// Chat Bubble Bottom Center Text icon
-  static const HeroIcons chatBubbleBottomCenterText =
-      HeroIcons._('chat-bubble-bottom-center-text');
+  static const HeroIcons chatBubbleBottomCenterText = HeroIcons._('chat-bubble-bottom-center-text');
 
   /// Chat Bubble Bottom Center icon
-  static const HeroIcons chatBubbleBottomCenter =
-      HeroIcons._('chat-bubble-bottom-center');
+  static const HeroIcons chatBubbleBottomCenter = HeroIcons._('chat-bubble-bottom-center');
 
   /// Chat Bubble Left Ellipsis icon
-  static const HeroIcons chatBubbleLeftEllipsis =
-      HeroIcons._('chat-bubble-left-ellipsis');
+  static const HeroIcons chatBubbleLeftEllipsis = HeroIcons._('chat-bubble-left-ellipsis');
 
   /// Chat Bubble Left Right icon
-  static const HeroIcons chatBubbleLeftRight =
-      HeroIcons._('chat-bubble-left-right');
+  static const HeroIcons chatBubbleLeftRight = HeroIcons._('chat-bubble-left-right');
 
   /// Chat Bubble Left icon
   static const HeroIcons chatBubbleLeft = HeroIcons._('chat-bubble-left');
 
   /// Chat Bubble Oval Left Ellipsis icon
-  static const HeroIcons chatBubbleOvalLeftEllipsis =
-      HeroIcons._('chat-bubble-oval-left-ellipsis');
+  static const HeroIcons chatBubbleOvalLeftEllipsis = HeroIcons._('chat-bubble-oval-left-ellipsis');
 
   /// Chat Bubble Oval Left icon
-  static const HeroIcons chatBubbleOvalLeft =
-      HeroIcons._('chat-bubble-oval-left');
+  static const HeroIcons chatBubbleOvalLeft = HeroIcons._('chat-bubble-oval-left');
 
   /// Check Badge icon
   static const HeroIcons checkBadge = HeroIcons._('check-badge');
@@ -320,8 +303,7 @@ class HeroIcons {
   static const HeroIcons chevronDoubleLeft = HeroIcons._('chevron-double-left');
 
   /// Chevron Double Right icon
-  static const HeroIcons chevronDoubleRight =
-      HeroIcons._('chevron-double-right');
+  static const HeroIcons chevronDoubleRight = HeroIcons._('chevron-double-right');
 
   /// Chevron Double Up icon
   static const HeroIcons chevronDoubleUp = HeroIcons._('chevron-double-up');
@@ -345,12 +327,10 @@ class HeroIcons {
   static const HeroIcons circleStack = HeroIcons._('circle-stack');
 
   /// Clipboard Document Check icon
-  static const HeroIcons clipboardDocumentCheck =
-      HeroIcons._('clipboard-document-check');
+  static const HeroIcons clipboardDocumentCheck = HeroIcons._('clipboard-document-check');
 
   /// Clipboard Document List icon
-  static const HeroIcons clipboardDocumentList =
-      HeroIcons._('clipboard-document-list');
+  static const HeroIcons clipboardDocumentList = HeroIcons._('clipboard-document-list');
 
   /// Clipboard Document icon
   static const HeroIcons clipboardDocument = HeroIcons._('clipboard-document');
@@ -404,8 +384,7 @@ class HeroIcons {
   static const HeroIcons cube = HeroIcons._('cube');
 
   /// Currency Bangladeshi icon
-  static const HeroIcons currencyBangladeshi =
-      HeroIcons._('currency-bangladeshi');
+  static const HeroIcons currencyBangladeshi = HeroIcons._('currency-bangladeshi');
 
   /// Currency Dollar icon
   static const HeroIcons currencyDollar = HeroIcons._('currency-dollar');
@@ -450,8 +429,7 @@ class HeroIcons {
   static const HeroIcons documentDuplicate = HeroIcons._('document-duplicate');
 
   /// Document Magnifying Glass icon
-  static const HeroIcons documentMagnifyingGlass =
-      HeroIcons._('document-magnifying-glass');
+  static const HeroIcons documentMagnifyingGlass = HeroIcons._('document-magnifying-glass');
 
   /// Document Minus icon
   static const HeroIcons documentMinus = HeroIcons._('document-minus');
@@ -466,12 +444,10 @@ class HeroIcons {
   static const HeroIcons document = HeroIcons._('document');
 
   /// Ellipsis Horizontal Circle icon
-  static const HeroIcons ellipsisHorizontalCircle =
-      HeroIcons._('ellipsis-horizontal-circle');
+  static const HeroIcons ellipsisHorizontalCircle = HeroIcons._('ellipsis-horizontal-circle');
 
   /// Ellipsis Horizontal icon
-  static const HeroIcons ellipsisHorizontal =
-      HeroIcons._('ellipsis-horizontal');
+  static const HeroIcons ellipsisHorizontal = HeroIcons._('ellipsis-horizontal');
 
   /// Ellipsis Vertical icon
   static const HeroIcons ellipsisVertical = HeroIcons._('ellipsis-vertical');
@@ -486,8 +462,7 @@ class HeroIcons {
   static const HeroIcons exclamationCircle = HeroIcons._('exclamation-circle');
 
   /// Exclamation Triangle icon
-  static const HeroIcons exclamationTriangle =
-      HeroIcons._('exclamation-triangle');
+  static const HeroIcons exclamationTriangle = HeroIcons._('exclamation-triangle');
 
   /// Eye Dropper icon
   static const HeroIcons eyeDropper = HeroIcons._('eye-dropper');
@@ -553,8 +528,7 @@ class HeroIcons {
   static const HeroIcons globeAmericas = HeroIcons._('globe-americas');
 
   /// Globe Asia Australia icon
-  static const HeroIcons globeAsiaAustralia =
-      HeroIcons._('globe-asia-australia');
+  static const HeroIcons globeAsiaAustralia = HeroIcons._('globe-asia-australia');
 
   /// Globe Europe Africa icon
   static const HeroIcons globeEuropeAfrica = HeroIcons._('globe-europe-africa');
@@ -620,16 +594,13 @@ class HeroIcons {
   static const HeroIcons lockOpen = HeroIcons._('lock-open');
 
   /// Magnifying Glass Circle icon
-  static const HeroIcons magnifyingGlassCircle =
-      HeroIcons._('magnifying-glass-circle');
+  static const HeroIcons magnifyingGlassCircle = HeroIcons._('magnifying-glass-circle');
 
   /// Magnifying Glass Minus icon
-  static const HeroIcons magnifyingGlassMinus =
-      HeroIcons._('magnifying-glass-minus');
+  static const HeroIcons magnifyingGlassMinus = HeroIcons._('magnifying-glass-minus');
 
   /// Magnifying Glass Plus icon
-  static const HeroIcons magnifyingGlassPlus =
-      HeroIcons._('magnifying-glass-plus');
+  static const HeroIcons magnifyingGlassPlus = HeroIcons._('magnifying-glass-plus');
 
   /// Magnifying Glass icon
   static const HeroIcons magnifyingGlass = HeroIcons._('magnifying-glass');
@@ -689,12 +660,10 @@ class HeroIcons {
   static const HeroIcons pencil = HeroIcons._('pencil');
 
   /// Phone Arrow Down Left icon
-  static const HeroIcons phoneArrowDownLeft =
-      HeroIcons._('phone-arrow-down-left');
+  static const HeroIcons phoneArrowDownLeft = HeroIcons._('phone-arrow-down-left');
 
   /// Phone Arrow Up Right icon
-  static const HeroIcons phoneArrowUpRight =
-      HeroIcons._('phone-arrow-up-right');
+  static const HeroIcons phoneArrowUpRight = HeroIcons._('phone-arrow-up-right');
 
   /// Phone X Mark icon
   static const HeroIcons phoneXMark = HeroIcons._('phone-x-mark');
@@ -727,12 +696,10 @@ class HeroIcons {
   static const HeroIcons power = HeroIcons._('power');
 
   /// Presentation Chart Bar icon
-  static const HeroIcons presentationChartBar =
-      HeroIcons._('presentation-chart-bar');
+  static const HeroIcons presentationChartBar = HeroIcons._('presentation-chart-bar');
 
   /// Presentation Chart Line icon
-  static const HeroIcons presentationChartLine =
-      HeroIcons._('presentation-chart-line');
+  static const HeroIcons presentationChartLine = HeroIcons._('presentation-chart-line');
 
   /// Printer icon
   static const HeroIcons printer = HeroIcons._('printer');
@@ -744,8 +711,7 @@ class HeroIcons {
   static const HeroIcons qrCode = HeroIcons._('qr-code');
 
   /// Question Mark Circle icon
-  static const HeroIcons questionMarkCircle =
-      HeroIcons._('question-mark-circle');
+  static const HeroIcons questionMarkCircle = HeroIcons._('question-mark-circle');
 
   /// Queue List icon
   static const HeroIcons queueList = HeroIcons._('queue-list');
@@ -914,4 +880,300 @@ class HeroIcons {
 
   /// X Mark icon
   static const HeroIcons xMark = HeroIcons._('x-mark');
+
 }
+
+const Map<String, String> heroiconsMapping = <String, String>{
+  'academicCap': 'academic-cap',
+  'adjustmentsHorizontal': 'adjustments-horizontal',
+  'adjustmentsVertical': 'adjustments-vertical',
+  'archiveBoxArrowDown': 'archive-box-arrow-down',
+  'archiveBoxXMark': 'archive-box-x-mark',
+  'archiveBox': 'archive-box',
+  'arrowDownCircle': 'arrow-down-circle',
+  'arrowDownLeft': 'arrow-down-left',
+  'arrowDownOnSquareStack': 'arrow-down-on-square-stack',
+  'arrowDownOnSquare': 'arrow-down-on-square',
+  'arrowDownRight': 'arrow-down-right',
+  'arrowDownTray': 'arrow-down-tray',
+  'arrowDown': 'arrow-down',
+  'arrowLeftCircle': 'arrow-left-circle',
+  'arrowLeftOnRectangle': 'arrow-left-on-rectangle',
+  'arrowLeft': 'arrow-left',
+  'arrowLongDown': 'arrow-long-down',
+  'arrowLongLeft': 'arrow-long-left',
+  'arrowLongRight': 'arrow-long-right',
+  'arrowLongUp': 'arrow-long-up',
+  'arrowPathRoundedSquare': 'arrow-path-rounded-square',
+  'arrowPath': 'arrow-path',
+  'arrowRightCircle': 'arrow-right-circle',
+  'arrowRightOnRectangle': 'arrow-right-on-rectangle',
+  'arrowRight': 'arrow-right',
+  'arrowSmallDown': 'arrow-small-down',
+  'arrowSmallLeft': 'arrow-small-left',
+  'arrowSmallRight': 'arrow-small-right',
+  'arrowSmallUp': 'arrow-small-up',
+  'arrowTopRightOnSquare': 'arrow-top-right-on-square',
+  'arrowTrendingDown': 'arrow-trending-down',
+  'arrowTrendingUp': 'arrow-trending-up',
+  'arrowUpCircle': 'arrow-up-circle',
+  'arrowUpLeft': 'arrow-up-left',
+  'arrowUpOnSquareStack': 'arrow-up-on-square-stack',
+  'arrowUpOnSquare': 'arrow-up-on-square',
+  'arrowUpRight': 'arrow-up-right',
+  'arrowUpTray': 'arrow-up-tray',
+  'arrowUp': 'arrow-up',
+  'arrowUturnDown': 'arrow-uturn-down',
+  'arrowUturnLeft': 'arrow-uturn-left',
+  'arrowUturnRight': 'arrow-uturn-right',
+  'arrowUturnUp': 'arrow-uturn-up',
+  'arrowsPointingIn': 'arrows-pointing-in',
+  'arrowsPointingOut': 'arrows-pointing-out',
+  'arrowsRightLeft': 'arrows-right-left',
+  'arrowsUpDown': 'arrows-up-down',
+  'atSymbol': 'at-symbol',
+  'backspace': 'backspace',
+  'backward': 'backward',
+  'banknotes': 'banknotes',
+  'bars2': 'bars-2',
+  'bars3BottomLeft': 'bars-3-bottom-left',
+  'bars3BottomRight': 'bars-3-bottom-right',
+  'bars3CenterLeft': 'bars-3-center-left',
+  'bars3': 'bars-3',
+  'bars4': 'bars-4',
+  'barsArrowDown': 'bars-arrow-down',
+  'barsArrowUp': 'bars-arrow-up',
+  'battery0': 'battery-0',
+  'battery100': 'battery-100',
+  'battery50': 'battery-50',
+  'beaker': 'beaker',
+  'bellAlert': 'bell-alert',
+  'bellSlash': 'bell-slash',
+  'bellSnooze': 'bell-snooze',
+  'bell': 'bell',
+  'boltSlash': 'bolt-slash',
+  'bolt': 'bolt',
+  'bookOpen': 'book-open',
+  'bookmarkSlash': 'bookmark-slash',
+  'bookmarkSquare': 'bookmark-square',
+  'bookmark': 'bookmark',
+  'briefcase': 'briefcase',
+  'bugAnt': 'bug-ant',
+  'buildingLibrary': 'building-library',
+  'buildingOffice2': 'building-office-2',
+  'buildingOffice': 'building-office',
+  'buildingStorefront': 'building-storefront',
+  'cake': 'cake',
+  'calculator': 'calculator',
+  'calendarDays': 'calendar-days',
+  'calendar': 'calendar',
+  'camera': 'camera',
+  'chartBarSquare': 'chart-bar-square',
+  'chartBar': 'chart-bar',
+  'chartPie': 'chart-pie',
+  'chatBubbleBottomCenterText': 'chat-bubble-bottom-center-text',
+  'chatBubbleBottomCenter': 'chat-bubble-bottom-center',
+  'chatBubbleLeftEllipsis': 'chat-bubble-left-ellipsis',
+  'chatBubbleLeftRight': 'chat-bubble-left-right',
+  'chatBubbleLeft': 'chat-bubble-left',
+  'chatBubbleOvalLeftEllipsis': 'chat-bubble-oval-left-ellipsis',
+  'chatBubbleOvalLeft': 'chat-bubble-oval-left',
+  'checkBadge': 'check-badge',
+  'checkCircle': 'check-circle',
+  'check': 'check',
+  'chevronDoubleDown': 'chevron-double-down',
+  'chevronDoubleLeft': 'chevron-double-left',
+  'chevronDoubleRight': 'chevron-double-right',
+  'chevronDoubleUp': 'chevron-double-up',
+  'chevronDown': 'chevron-down',
+  'chevronLeft': 'chevron-left',
+  'chevronRight': 'chevron-right',
+  'chevronUpDown': 'chevron-up-down',
+  'chevronUp': 'chevron-up',
+  'circleStack': 'circle-stack',
+  'clipboardDocumentCheck': 'clipboard-document-check',
+  'clipboardDocumentList': 'clipboard-document-list',
+  'clipboardDocument': 'clipboard-document',
+  'clipboard': 'clipboard',
+  'clock': 'clock',
+  'cloudArrowDown': 'cloud-arrow-down',
+  'cloudArrowUp': 'cloud-arrow-up',
+  'cloud': 'cloud',
+  'codeBracketSquare': 'code-bracket-square',
+  'codeBracket': 'code-bracket',
+  'cog6Tooth': 'cog-6-tooth',
+  'cog8Tooth': 'cog-8-tooth',
+  'cog': 'cog',
+  'commandLine': 'command-line',
+  'computerDesktop': 'computer-desktop',
+  'cpuChip': 'cpu-chip',
+  'creditCard': 'credit-card',
+  'cubeTransparent': 'cube-transparent',
+  'cube': 'cube',
+  'currencyBangladeshi': 'currency-bangladeshi',
+  'currencyDollar': 'currency-dollar',
+  'currencyEuro': 'currency-euro',
+  'currencyPound': 'currency-pound',
+  'currencyRupee': 'currency-rupee',
+  'currencyYen': 'currency-yen',
+  'cursorArrowRays': 'cursor-arrow-rays',
+  'cursorArrowRipple': 'cursor-arrow-ripple',
+  'devicePhoneMobile': 'device-phone-mobile',
+  'deviceTablet': 'device-tablet',
+  'documentArrowDown': 'document-arrow-down',
+  'documentArrowUp': 'document-arrow-up',
+  'documentChartBar': 'document-chart-bar',
+  'documentCheck': 'document-check',
+  'documentDuplicate': 'document-duplicate',
+  'documentMagnifyingGlass': 'document-magnifying-glass',
+  'documentMinus': 'document-minus',
+  'documentPlus': 'document-plus',
+  'documentText': 'document-text',
+  'document': 'document',
+  'ellipsisHorizontalCircle': 'ellipsis-horizontal-circle',
+  'ellipsisHorizontal': 'ellipsis-horizontal',
+  'ellipsisVertical': 'ellipsis-vertical',
+  'envelopeOpen': 'envelope-open',
+  'envelope': 'envelope',
+  'exclamationCircle': 'exclamation-circle',
+  'exclamationTriangle': 'exclamation-triangle',
+  'eyeDropper': 'eye-dropper',
+  'eyeSlash': 'eye-slash',
+  'eye': 'eye',
+  'faceFrown': 'face-frown',
+  'faceSmile': 'face-smile',
+  'film': 'film',
+  'fingerPrint': 'finger-print',
+  'fire': 'fire',
+  'flag': 'flag',
+  'folderArrowDown': 'folder-arrow-down',
+  'folderMinus': 'folder-minus',
+  'folderOpen': 'folder-open',
+  'folderPlus': 'folder-plus',
+  'folder': 'folder',
+  'forward': 'forward',
+  'funnel': 'funnel',
+  'gif': 'gif',
+  'giftTop': 'gift-top',
+  'gift': 'gift',
+  'globeAlt': 'globe-alt',
+  'globeAmericas': 'globe-americas',
+  'globeAsiaAustralia': 'globe-asia-australia',
+  'globeEuropeAfrica': 'globe-europe-africa',
+  'handRaised': 'hand-raised',
+  'handThumbDown': 'hand-thumb-down',
+  'handThumbUp': 'hand-thumb-up',
+  'hashtag': 'hashtag',
+  'heart': 'heart',
+  'homeModern': 'home-modern',
+  'home': 'home',
+  'identification': 'identification',
+  'inboxArrowDown': 'inbox-arrow-down',
+  'inboxStack': 'inbox-stack',
+  'inbox': 'inbox',
+  'informationCircle': 'information-circle',
+  'key': 'key',
+  'language': 'language',
+  'lifebuoy': 'lifebuoy',
+  'lightBulb': 'light-bulb',
+  'link': 'link',
+  'listBullet': 'list-bullet',
+  'lockClosed': 'lock-closed',
+  'lockOpen': 'lock-open',
+  'magnifyingGlassCircle': 'magnifying-glass-circle',
+  'magnifyingGlassMinus': 'magnifying-glass-minus',
+  'magnifyingGlassPlus': 'magnifying-glass-plus',
+  'magnifyingGlass': 'magnifying-glass',
+  'mapPin': 'map-pin',
+  'map': 'map',
+  'megaphone': 'megaphone',
+  'microphone': 'microphone',
+  'minusCircle': 'minus-circle',
+  'minusSmall': 'minus-small',
+  'minus': 'minus',
+  'moon': 'moon',
+  'musicalNote': 'musical-note',
+  'newspaper': 'newspaper',
+  'noSymbol': 'no-symbol',
+  'paintBrush': 'paint-brush',
+  'paperAirplane': 'paper-airplane',
+  'paperClip': 'paper-clip',
+  'pauseCircle': 'pause-circle',
+  'pause': 'pause',
+  'pencilSquare': 'pencil-square',
+  'pencil': 'pencil',
+  'phoneArrowDownLeft': 'phone-arrow-down-left',
+  'phoneArrowUpRight': 'phone-arrow-up-right',
+  'phoneXMark': 'phone-x-mark',
+  'phone': 'phone',
+  'photo': 'photo',
+  'playCircle': 'play-circle',
+  'playPause': 'play-pause',
+  'play': 'play',
+  'plusCircle': 'plus-circle',
+  'plusSmall': 'plus-small',
+  'plus': 'plus',
+  'power': 'power',
+  'presentationChartBar': 'presentation-chart-bar',
+  'presentationChartLine': 'presentation-chart-line',
+  'printer': 'printer',
+  'puzzlePiece': 'puzzle-piece',
+  'qrCode': 'qr-code',
+  'questionMarkCircle': 'question-mark-circle',
+  'queueList': 'queue-list',
+  'radio': 'radio',
+  'receiptPercent': 'receipt-percent',
+  'receiptRefund': 'receipt-refund',
+  'rectangleGroup': 'rectangle-group',
+  'rectangleStack': 'rectangle-stack',
+  'rocketLaunch': 'rocket-launch',
+  'rss': 'rss',
+  'scale': 'scale',
+  'scissors': 'scissors',
+  'serverStack': 'server-stack',
+  'server': 'server',
+  'share': 'share',
+  'shieldCheck': 'shield-check',
+  'shieldExclamation': 'shield-exclamation',
+  'shoppingBag': 'shopping-bag',
+  'shoppingCart': 'shopping-cart',
+  'signalSlash': 'signal-slash',
+  'signal': 'signal',
+  'sparkles': 'sparkles',
+  'speakerWave': 'speaker-wave',
+  'speakerXMark': 'speaker-x-mark',
+  'square2Stack': 'square-2-stack',
+  'square3Stack3d': 'square-3-stack-3d',
+  'squares2x2': 'squares-2x2',
+  'squaresPlus': 'squares-plus',
+  'star': 'star',
+  'stopCircle': 'stop-circle',
+  'stop': 'stop',
+  'sun': 'sun',
+  'swatch': 'swatch',
+  'tableCells': 'table-cells',
+  'tag': 'tag',
+  'ticket': 'ticket',
+  'trash': 'trash',
+  'trophy': 'trophy',
+  'truck': 'truck',
+  'tv': 'tv',
+  'userCircle': 'user-circle',
+  'userGroup': 'user-group',
+  'userMinus': 'user-minus',
+  'userPlus': 'user-plus',
+  'user': 'user',
+  'users': 'users',
+  'variable': 'variable',
+  'videoCameraSlash': 'video-camera-slash',
+  'videoCamera': 'video-camera',
+  'viewColumns': 'view-columns',
+  'viewfinderCircle': 'viewfinder-circle',
+  'wallet': 'wallet',
+  'wifi': 'wifi',
+  'window': 'window',
+  'wrenchScrewdriver': 'wrench-screwdriver',
+  'wrench': 'wrench',
+  'xCircle': 'x-circle',
+  'xMark': 'x-mark',
+};
