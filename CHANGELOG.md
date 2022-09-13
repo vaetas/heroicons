@@ -1,3 +1,10 @@
+## 0.7.0 - 2022-09-13
+
+* feat: support mini variant
+* chore: update example
+* chore: update icons to v2
+* chore: update dependencies
+
 ## 0.6.0 - 2022-06-15
 
 * feat: use size from `IconTheme` if none is given

@@ -1,4 +1,3 @@
-// @dart=2.9
 import 'dart:io';
 
 import 'package:code_builder/code_builder.dart';
@@ -7,22 +6,22 @@ import 'package:path/path.dart' as p;
 import 'package:recase/recase.dart';
 
 Future<void> main() async {
-  final names = _getFileNames();
-  final file = File(p.join('lib', 'src', 'icons.dart'));
+  final List<String> names = _getFileNames();
+  final File file = File(p.join('lib', 'src', 'icons.dart'));
 
-  final iconClass = Class(
-    (b) => b
+  final Class iconClass = Class(
+    (ClassBuilder b) => b
       ..name = 'HeroIcons'
       ..fields.addAll(
-        [
-          Field((b) {
+        <Field>[
+          Field((FieldBuilder b) {
             b.name = 'name';
-            b.type = Reference("final String");
+            b.type = const Reference('final String');
           }),
-          ...names.map((fileName) {
-            return Field((b) {
-              final name = p.basenameWithoutExtension(fileName);
-              final recase = ReCase(name);
+          ...names.map((String fileName) {
+            return Field((FieldBuilder b) {
+              final String name = p.basenameWithoutExtension(fileName);
+              final ReCase recase = ReCase(name);
               b.name = recase.camelCase;
               b.assignment = Code("HeroIcons._('$name')");
               b.modifier = FieldModifier.constant;
@@ -33,10 +32,10 @@ Future<void> main() async {
         ],
       )
       ..constructors.add(
-        Constructor((b) {
+        Constructor((ConstructorBuilder b) {
           b.name = '_';
           b.constant = true;
-          b.requiredParameters.add(Parameter((b) {
+          b.requiredParameters.add(Parameter((ParameterBuilder b) {
             b.name = 'name';
             b.toThis = true;
           }));
@@ -44,21 +43,21 @@ Future<void> main() async {
       ),
   );
 
-  final lib = Library((b) {
+  final Library lib = Library((LibraryBuilder b) {
     b.body.add(iconClass);
   });
 
-  final emitter = DartEmitter();
-  final x = lib.accept(emitter);
+  final DartEmitter emitter = DartEmitter();
+  final StringSink x = lib.accept(emitter);
   await file.writeAsString(DartFormatter().format('library heroicons; $x'));
 }
 
 List<String> _getFileNames() {
-  print('Generating icon class');
-  final files = Directory(p.join('assets', 'outline')).listSync();
+  final List<FileSystemEntity> files =
+      Directory(p.join('assets', 'outline')).listSync();
   return files
-      .map((e) => e.name)
-      .where((element) => element.contains('.svg'))
+      .map((FileSystemEntity e) => e.name)
+      .where((String element) => element.contains('.svg'))
       .toList();
 }
 

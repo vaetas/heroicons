@@ -1,7 +1,6 @@
 # HeroIcons
 
-[heroicons](https://heroicons.com/) port to Flutter. This package renders the icons as SVG 
-pictures.
+[heroicons](https://heroicons.com/) port to Flutter. This package renders the icons as SVG pictures.
 
 ## Usage
 
@@ -10,10 +9,10 @@ class MyExampleWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return HeroIcon(
-      HeroIcons.calendar,
-      solid: false, // Outlined icons are used by default.
+      HeroIcons.academicCap,
       color: Colors.red,
       size: 30,
+      style: HeroIconStyle.outline, // Outlined icons are used by default.
     );
   }
 }
@@ -32,8 +31,14 @@ You can also run `flutter pub add heroicons` to quickly add latest version from 
 
 ## Development
 
-Run source code generation to create `heroicons.dart` file with named constructor for every icon.
+Run source code generation to create `icons.dart` file with named constructor for every icon.
 
 ```
 dart tool/generator.dart
+```
+
+In case this doesn't work for you try this insead.
+
+```
+dart tool/alt_generator.dart
 ```

@@ -10,28 +10,41 @@ export 'src/icons.dart';
 
 /// Similarly to Material Icons, use [HeroIcon] Widget to display HeroIcon.
 ///
-/// Icons default to outlined style. For solid icons, set [solid] to true.
+/// Icons default to [HeroIconStyle.outline]. For other icons, set [style] to either [HeroIconStyle.solid] or [HeroIconStyle.mini].
 ///
 /// ```dart
-/// HeroIcon(HeroIcons.arrowLeft)
+/// HeroIcon(HeroIcons.academicCap)
 /// ```
 class HeroIcon extends StatelessWidget {
   const HeroIcon(
     this.icon, {
+    Key? key,
     this.color,
     this.size,
-    this.solid = false,
-  });
+    this.style = HeroIconStyle.outline,
+  }) : super(key: key);
 
   final HeroIcons icon;
   final Color? color;
   final double? size;
-  final bool solid;
+  final HeroIconStyle style;
 
   @override
   Widget build(BuildContext context) {
-    final path = p.join(
-      'packages/heroicons/assets/${solid ? 'solid' : 'outline'}/',
+    String style = 'outline';
+    switch (this.style) {
+      case HeroIconStyle.solid:
+        style = 'solid';
+        break;
+      case HeroIconStyle.mini:
+        style = 'mini';
+        break;
+      case HeroIconStyle.outline:
+        style = 'outline';
+        break;
+    }
+    final String path = p.join(
+      'packages/heroicons/assets/$style/',
       icon.name,
     );
     return SvgPicture.asset(
@@ -39,7 +52,12 @@ class HeroIcon extends StatelessWidget {
       color: color ?? IconTheme.of(context).color,
       width: size ?? IconTheme.of(context).size,
       height: size ?? IconTheme.of(context).size,
-      alignment: Alignment.center,
     );
   }
+}
+
+enum HeroIconStyle {
+  solid,
+  outline,
+  mini,
 }
