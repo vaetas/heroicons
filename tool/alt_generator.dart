@@ -30,16 +30,16 @@ class HeroIcons {
   }
 
   buffer.writeln('}');
-  buffer.writeln('');
+  buffer.writeln();
 
   /// Mapping for icon names
-  buffer.writeln('const Map<String, String> heroiconsMapping = <String, String>{');
+  buffer.writeln('const Map<String, HeroIcons> heroiconsMapping = <String, HeroIcons>{');
   for (final FileSystemEntity file in entities) {
     final String filename = file.path.split('/').last;
     if (filename.contains('.svg')) {
       final ReCase reCase = ReCase(filename.replaceAll('.svg', ''));
       buffer.writeln(
-          "  '${reCase.camelCase}': '${filename.replaceAll('.svg', '')}',");
+          "  '${reCase.camelCase}': HeroIcons.${reCase.camelCase},");
     }
   }
   buffer.writeln('};');
