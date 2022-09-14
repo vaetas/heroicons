@@ -14,7 +14,7 @@ export 'src/icons.dart';
 /// either [HeroIconStyle.solid] or [HeroIconStyle.mini].
 ///
 /// ```dart
-/// HeroIcon(HeroIcons.academicCap)
+/// HeroIcon(HeroIcons.arrowLeft)
 /// ```
 class HeroIcon extends StatelessWidget {
   const HeroIcon(
@@ -53,6 +53,7 @@ class HeroIcon extends StatelessWidget {
       color: color ?? IconTheme.of(context).color,
       width: size ?? IconTheme.of(context).size,
       height: size ?? IconTheme.of(context).size,
+      alignment: Alignment.center,
     );
   }
 }

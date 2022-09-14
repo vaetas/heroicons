@@ -36,9 +36,3 @@ Run source code generation to create `icons.dart` file with named constructor fo
 ```
 dart tool/generator.dart
 ```
-
-In case this doesn't work for you try this insead.
-
-```
-dart tool/alt_generator.dart
-```
