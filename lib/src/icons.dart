@@ -9,13 +9,16 @@ class HeroIcons {
   static const HeroIcons academicCap = HeroIcons._('academic-cap');
 
   /// Adjustments Horizontal icon
-  static const HeroIcons adjustmentsHorizontal = HeroIcons._('adjustments-horizontal');
+  static const HeroIcons adjustmentsHorizontal =
+      HeroIcons._('adjustments-horizontal');
 
   /// Adjustments Vertical icon
-  static const HeroIcons adjustmentsVertical = HeroIcons._('adjustments-vertical');
+  static const HeroIcons adjustmentsVertical =
+      HeroIcons._('adjustments-vertical');
 
   /// Archive Box Arrow Down icon
-  static const HeroIcons archiveBoxArrowDown = HeroIcons._('archive-box-arrow-down');
+  static const HeroIcons archiveBoxArrowDown =
+      HeroIcons._('archive-box-arrow-down');
 
   /// Archive Box X Mark icon
   static const HeroIcons archiveBoxXMark = HeroIcons._('archive-box-x-mark');
@@ -30,10 +33,12 @@ class HeroIcons {
   static const HeroIcons arrowDownLeft = HeroIcons._('arrow-down-left');
 
   /// Arrow Down On Square Stack icon
-  static const HeroIcons arrowDownOnSquareStack = HeroIcons._('arrow-down-on-square-stack');
+  static const HeroIcons arrowDownOnSquareStack =
+      HeroIcons._('arrow-down-on-square-stack');
 
   /// Arrow Down On Square icon
-  static const HeroIcons arrowDownOnSquare = HeroIcons._('arrow-down-on-square');
+  static const HeroIcons arrowDownOnSquare =
+      HeroIcons._('arrow-down-on-square');
 
   /// Arrow Down Right icon
   static const HeroIcons arrowDownRight = HeroIcons._('arrow-down-right');
@@ -48,7 +53,8 @@ class HeroIcons {
   static const HeroIcons arrowLeftCircle = HeroIcons._('arrow-left-circle');
 
   /// Arrow Left On Rectangle icon
-  static const HeroIcons arrowLeftOnRectangle = HeroIcons._('arrow-left-on-rectangle');
+  static const HeroIcons arrowLeftOnRectangle =
+      HeroIcons._('arrow-left-on-rectangle');
 
   /// Arrow Left icon
   static const HeroIcons arrowLeft = HeroIcons._('arrow-left');
@@ -66,7 +72,8 @@ class HeroIcons {
   static const HeroIcons arrowLongUp = HeroIcons._('arrow-long-up');
 
   /// Arrow Path Rounded Square icon
-  static const HeroIcons arrowPathRoundedSquare = HeroIcons._('arrow-path-rounded-square');
+  static const HeroIcons arrowPathRoundedSquare =
+      HeroIcons._('arrow-path-rounded-square');
 
   /// Arrow Path icon
   static const HeroIcons arrowPath = HeroIcons._('arrow-path');
@@ -75,7 +82,8 @@ class HeroIcons {
   static const HeroIcons arrowRightCircle = HeroIcons._('arrow-right-circle');
 
   /// Arrow Right On Rectangle icon
-  static const HeroIcons arrowRightOnRectangle = HeroIcons._('arrow-right-on-rectangle');
+  static const HeroIcons arrowRightOnRectangle =
+      HeroIcons._('arrow-right-on-rectangle');
 
   /// Arrow Right icon
   static const HeroIcons arrowRight = HeroIcons._('arrow-right');
@@ -93,7 +101,8 @@ class HeroIcons {
   static const HeroIcons arrowSmallUp = HeroIcons._('arrow-small-up');
 
   /// Arrow Top Right On Square icon
-  static const HeroIcons arrowTopRightOnSquare = HeroIcons._('arrow-top-right-on-square');
+  static const HeroIcons arrowTopRightOnSquare =
+      HeroIcons._('arrow-top-right-on-square');
 
   /// Arrow Trending Down icon
   static const HeroIcons arrowTrendingDown = HeroIcons._('arrow-trending-down');
@@ -108,7 +117,8 @@ class HeroIcons {
   static const HeroIcons arrowUpLeft = HeroIcons._('arrow-up-left');
 
   /// Arrow Up On Square Stack icon
-  static const HeroIcons arrowUpOnSquareStack = HeroIcons._('arrow-up-on-square-stack');
+  static const HeroIcons arrowUpOnSquareStack =
+      HeroIcons._('arrow-up-on-square-stack');
 
   /// Arrow Up On Square icon
   static const HeroIcons arrowUpOnSquare = HeroIcons._('arrow-up-on-square');
@@ -240,7 +250,8 @@ class HeroIcons {
   static const HeroIcons buildingOffice = HeroIcons._('building-office');
 
   /// Building Storefront icon
-  static const HeroIcons buildingStorefront = HeroIcons._('building-storefront');
+  static const HeroIcons buildingStorefront =
+      HeroIcons._('building-storefront');
 
   /// Cake icon
   static const HeroIcons cake = HeroIcons._('cake');
@@ -267,25 +278,31 @@ class HeroIcons {
   static const HeroIcons chartPie = HeroIcons._('chart-pie');
 
   /// Chat Bubble Bottom Center Text icon
-  static const HeroIcons chatBubbleBottomCenterText = HeroIcons._('chat-bubble-bottom-center-text');
+  static const HeroIcons chatBubbleBottomCenterText =
+      HeroIcons._('chat-bubble-bottom-center-text');
 
   /// Chat Bubble Bottom Center icon
-  static const HeroIcons chatBubbleBottomCenter = HeroIcons._('chat-bubble-bottom-center');
+  static const HeroIcons chatBubbleBottomCenter =
+      HeroIcons._('chat-bubble-bottom-center');
 
   /// Chat Bubble Left Ellipsis icon
-  static const HeroIcons chatBubbleLeftEllipsis = HeroIcons._('chat-bubble-left-ellipsis');
+  static const HeroIcons chatBubbleLeftEllipsis =
+      HeroIcons._('chat-bubble-left-ellipsis');
 
   /// Chat Bubble Left Right icon
-  static const HeroIcons chatBubbleLeftRight = HeroIcons._('chat-bubble-left-right');
+  static const HeroIcons chatBubbleLeftRight =
+      HeroIcons._('chat-bubble-left-right');
 
   /// Chat Bubble Left icon
   static const HeroIcons chatBubbleLeft = HeroIcons._('chat-bubble-left');
 
   /// Chat Bubble Oval Left Ellipsis icon
-  static const HeroIcons chatBubbleOvalLeftEllipsis = HeroIcons._('chat-bubble-oval-left-ellipsis');
+  static const HeroIcons chatBubbleOvalLeftEllipsis =
+      HeroIcons._('chat-bubble-oval-left-ellipsis');
 
   /// Chat Bubble Oval Left icon
-  static const HeroIcons chatBubbleOvalLeft = HeroIcons._('chat-bubble-oval-left');
+  static const HeroIcons chatBubbleOvalLeft =
+      HeroIcons._('chat-bubble-oval-left');
 
   /// Check Badge icon
   static const HeroIcons checkBadge = HeroIcons._('check-badge');
@@ -303,7 +320,8 @@ class HeroIcons {
   static const HeroIcons chevronDoubleLeft = HeroIcons._('chevron-double-left');
 
   /// Chevron Double Right icon
-  static const HeroIcons chevronDoubleRight = HeroIcons._('chevron-double-right');
+  static const HeroIcons chevronDoubleRight =
+      HeroIcons._('chevron-double-right');
 
   /// Chevron Double Up icon
   static const HeroIcons chevronDoubleUp = HeroIcons._('chevron-double-up');
@@ -327,10 +345,12 @@ class HeroIcons {
   static const HeroIcons circleStack = HeroIcons._('circle-stack');
 
   /// Clipboard Document Check icon
-  static const HeroIcons clipboardDocumentCheck = HeroIcons._('clipboard-document-check');
+  static const HeroIcons clipboardDocumentCheck =
+      HeroIcons._('clipboard-document-check');
 
   /// Clipboard Document List icon
-  static const HeroIcons clipboardDocumentList = HeroIcons._('clipboard-document-list');
+  static const HeroIcons clipboardDocumentList =
+      HeroIcons._('clipboard-document-list');
 
   /// Clipboard Document icon
   static const HeroIcons clipboardDocument = HeroIcons._('clipboard-document');
@@ -384,7 +404,8 @@ class HeroIcons {
   static const HeroIcons cube = HeroIcons._('cube');
 
   /// Currency Bangladeshi icon
-  static const HeroIcons currencyBangladeshi = HeroIcons._('currency-bangladeshi');
+  static const HeroIcons currencyBangladeshi =
+      HeroIcons._('currency-bangladeshi');
 
   /// Currency Dollar icon
   static const HeroIcons currencyDollar = HeroIcons._('currency-dollar');
@@ -429,7 +450,8 @@ class HeroIcons {
   static const HeroIcons documentDuplicate = HeroIcons._('document-duplicate');
 
   /// Document Magnifying Glass icon
-  static const HeroIcons documentMagnifyingGlass = HeroIcons._('document-magnifying-glass');
+  static const HeroIcons documentMagnifyingGlass =
+      HeroIcons._('document-magnifying-glass');
 
   /// Document Minus icon
   static const HeroIcons documentMinus = HeroIcons._('document-minus');
@@ -444,10 +466,12 @@ class HeroIcons {
   static const HeroIcons document = HeroIcons._('document');
 
   /// Ellipsis Horizontal Circle icon
-  static const HeroIcons ellipsisHorizontalCircle = HeroIcons._('ellipsis-horizontal-circle');
+  static const HeroIcons ellipsisHorizontalCircle =
+      HeroIcons._('ellipsis-horizontal-circle');
 
   /// Ellipsis Horizontal icon
-  static const HeroIcons ellipsisHorizontal = HeroIcons._('ellipsis-horizontal');
+  static const HeroIcons ellipsisHorizontal =
+      HeroIcons._('ellipsis-horizontal');
 
   /// Ellipsis Vertical icon
   static const HeroIcons ellipsisVertical = HeroIcons._('ellipsis-vertical');
@@ -462,7 +486,8 @@ class HeroIcons {
   static const HeroIcons exclamationCircle = HeroIcons._('exclamation-circle');
 
   /// Exclamation Triangle icon
-  static const HeroIcons exclamationTriangle = HeroIcons._('exclamation-triangle');
+  static const HeroIcons exclamationTriangle =
+      HeroIcons._('exclamation-triangle');
 
   /// Eye Dropper icon
   static const HeroIcons eyeDropper = HeroIcons._('eye-dropper');
@@ -528,7 +553,8 @@ class HeroIcons {
   static const HeroIcons globeAmericas = HeroIcons._('globe-americas');
 
   /// Globe Asia Australia icon
-  static const HeroIcons globeAsiaAustralia = HeroIcons._('globe-asia-australia');
+  static const HeroIcons globeAsiaAustralia =
+      HeroIcons._('globe-asia-australia');
 
   /// Globe Europe Africa icon
   static const HeroIcons globeEuropeAfrica = HeroIcons._('globe-europe-africa');
@@ -594,13 +620,16 @@ class HeroIcons {
   static const HeroIcons lockOpen = HeroIcons._('lock-open');
 
   /// Magnifying Glass Circle icon
-  static const HeroIcons magnifyingGlassCircle = HeroIcons._('magnifying-glass-circle');
+  static const HeroIcons magnifyingGlassCircle =
+      HeroIcons._('magnifying-glass-circle');
 
   /// Magnifying Glass Minus icon
-  static const HeroIcons magnifyingGlassMinus = HeroIcons._('magnifying-glass-minus');
+  static const HeroIcons magnifyingGlassMinus =
+      HeroIcons._('magnifying-glass-minus');
 
   /// Magnifying Glass Plus icon
-  static const HeroIcons magnifyingGlassPlus = HeroIcons._('magnifying-glass-plus');
+  static const HeroIcons magnifyingGlassPlus =
+      HeroIcons._('magnifying-glass-plus');
 
   /// Magnifying Glass icon
   static const HeroIcons magnifyingGlass = HeroIcons._('magnifying-glass');
@@ -660,10 +689,12 @@ class HeroIcons {
   static const HeroIcons pencil = HeroIcons._('pencil');
 
   /// Phone Arrow Down Left icon
-  static const HeroIcons phoneArrowDownLeft = HeroIcons._('phone-arrow-down-left');
+  static const HeroIcons phoneArrowDownLeft =
+      HeroIcons._('phone-arrow-down-left');
 
   /// Phone Arrow Up Right icon
-  static const HeroIcons phoneArrowUpRight = HeroIcons._('phone-arrow-up-right');
+  static const HeroIcons phoneArrowUpRight =
+      HeroIcons._('phone-arrow-up-right');
 
   /// Phone X Mark icon
   static const HeroIcons phoneXMark = HeroIcons._('phone-x-mark');
@@ -696,10 +727,12 @@ class HeroIcons {
   static const HeroIcons power = HeroIcons._('power');
 
   /// Presentation Chart Bar icon
-  static const HeroIcons presentationChartBar = HeroIcons._('presentation-chart-bar');
+  static const HeroIcons presentationChartBar =
+      HeroIcons._('presentation-chart-bar');
 
   /// Presentation Chart Line icon
-  static const HeroIcons presentationChartLine = HeroIcons._('presentation-chart-line');
+  static const HeroIcons presentationChartLine =
+      HeroIcons._('presentation-chart-line');
 
   /// Printer icon
   static const HeroIcons printer = HeroIcons._('printer');
@@ -711,7 +744,8 @@ class HeroIcons {
   static const HeroIcons qrCode = HeroIcons._('qr-code');
 
   /// Question Mark Circle icon
-  static const HeroIcons questionMarkCircle = HeroIcons._('question-mark-circle');
+  static const HeroIcons questionMarkCircle =
+      HeroIcons._('question-mark-circle');
 
   /// Queue List icon
   static const HeroIcons queueList = HeroIcons._('queue-list');
@@ -880,300 +914,4 @@ class HeroIcons {
 
   /// X Mark icon
   static const HeroIcons xMark = HeroIcons._('x-mark');
-
 }
-
-const Map<String, HeroIcons> heroiconsMapping = <String, HeroIcons>{
-  'academicCap': HeroIcons.academicCap,
-  'adjustmentsHorizontal': HeroIcons.adjustmentsHorizontal,
-  'adjustmentsVertical': HeroIcons.adjustmentsVertical,
-  'archiveBoxArrowDown': HeroIcons.archiveBoxArrowDown,
-  'archiveBoxXMark': HeroIcons.archiveBoxXMark,
-  'archiveBox': HeroIcons.archiveBox,
-  'arrowDownCircle': HeroIcons.arrowDownCircle,
-  'arrowDownLeft': HeroIcons.arrowDownLeft,
-  'arrowDownOnSquareStack': HeroIcons.arrowDownOnSquareStack,
-  'arrowDownOnSquare': HeroIcons.arrowDownOnSquare,
-  'arrowDownRight': HeroIcons.arrowDownRight,
-  'arrowDownTray': HeroIcons.arrowDownTray,
-  'arrowDown': HeroIcons.arrowDown,
-  'arrowLeftCircle': HeroIcons.arrowLeftCircle,
-  'arrowLeftOnRectangle': HeroIcons.arrowLeftOnRectangle,
-  'arrowLeft': HeroIcons.arrowLeft,
-  'arrowLongDown': HeroIcons.arrowLongDown,
-  'arrowLongLeft': HeroIcons.arrowLongLeft,
-  'arrowLongRight': HeroIcons.arrowLongRight,
-  'arrowLongUp': HeroIcons.arrowLongUp,
-  'arrowPathRoundedSquare': HeroIcons.arrowPathRoundedSquare,
-  'arrowPath': HeroIcons.arrowPath,
-  'arrowRightCircle': HeroIcons.arrowRightCircle,
-  'arrowRightOnRectangle': HeroIcons.arrowRightOnRectangle,
-  'arrowRight': HeroIcons.arrowRight,
-  'arrowSmallDown': HeroIcons.arrowSmallDown,
-  'arrowSmallLeft': HeroIcons.arrowSmallLeft,
-  'arrowSmallRight': HeroIcons.arrowSmallRight,
-  'arrowSmallUp': HeroIcons.arrowSmallUp,
-  'arrowTopRightOnSquare': HeroIcons.arrowTopRightOnSquare,
-  'arrowTrendingDown': HeroIcons.arrowTrendingDown,
-  'arrowTrendingUp': HeroIcons.arrowTrendingUp,
-  'arrowUpCircle': HeroIcons.arrowUpCircle,
-  'arrowUpLeft': HeroIcons.arrowUpLeft,
-  'arrowUpOnSquareStack': HeroIcons.arrowUpOnSquareStack,
-  'arrowUpOnSquare': HeroIcons.arrowUpOnSquare,
-  'arrowUpRight': HeroIcons.arrowUpRight,
-  'arrowUpTray': HeroIcons.arrowUpTray,
-  'arrowUp': HeroIcons.arrowUp,
-  'arrowUturnDown': HeroIcons.arrowUturnDown,
-  'arrowUturnLeft': HeroIcons.arrowUturnLeft,
-  'arrowUturnRight': HeroIcons.arrowUturnRight,
-  'arrowUturnUp': HeroIcons.arrowUturnUp,
-  'arrowsPointingIn': HeroIcons.arrowsPointingIn,
-  'arrowsPointingOut': HeroIcons.arrowsPointingOut,
-  'arrowsRightLeft': HeroIcons.arrowsRightLeft,
-  'arrowsUpDown': HeroIcons.arrowsUpDown,
-  'atSymbol': HeroIcons.atSymbol,
-  'backspace': HeroIcons.backspace,
-  'backward': HeroIcons.backward,
-  'banknotes': HeroIcons.banknotes,
-  'bars2': HeroIcons.bars2,
-  'bars3BottomLeft': HeroIcons.bars3BottomLeft,
-  'bars3BottomRight': HeroIcons.bars3BottomRight,
-  'bars3CenterLeft': HeroIcons.bars3CenterLeft,
-  'bars3': HeroIcons.bars3,
-  'bars4': HeroIcons.bars4,
-  'barsArrowDown': HeroIcons.barsArrowDown,
-  'barsArrowUp': HeroIcons.barsArrowUp,
-  'battery0': HeroIcons.battery0,
-  'battery100': HeroIcons.battery100,
-  'battery50': HeroIcons.battery50,
-  'beaker': HeroIcons.beaker,
-  'bellAlert': HeroIcons.bellAlert,
-  'bellSlash': HeroIcons.bellSlash,
-  'bellSnooze': HeroIcons.bellSnooze,
-  'bell': HeroIcons.bell,
-  'boltSlash': HeroIcons.boltSlash,
-  'bolt': HeroIcons.bolt,
-  'bookOpen': HeroIcons.bookOpen,
-  'bookmarkSlash': HeroIcons.bookmarkSlash,
-  'bookmarkSquare': HeroIcons.bookmarkSquare,
-  'bookmark': HeroIcons.bookmark,
-  'briefcase': HeroIcons.briefcase,
-  'bugAnt': HeroIcons.bugAnt,
-  'buildingLibrary': HeroIcons.buildingLibrary,
-  'buildingOffice2': HeroIcons.buildingOffice2,
-  'buildingOffice': HeroIcons.buildingOffice,
-  'buildingStorefront': HeroIcons.buildingStorefront,
-  'cake': HeroIcons.cake,
-  'calculator': HeroIcons.calculator,
-  'calendarDays': HeroIcons.calendarDays,
-  'calendar': HeroIcons.calendar,
-  'camera': HeroIcons.camera,
-  'chartBarSquare': HeroIcons.chartBarSquare,
-  'chartBar': HeroIcons.chartBar,
-  'chartPie': HeroIcons.chartPie,
-  'chatBubbleBottomCenterText': HeroIcons.chatBubbleBottomCenterText,
-  'chatBubbleBottomCenter': HeroIcons.chatBubbleBottomCenter,
-  'chatBubbleLeftEllipsis': HeroIcons.chatBubbleLeftEllipsis,
-  'chatBubbleLeftRight': HeroIcons.chatBubbleLeftRight,
-  'chatBubbleLeft': HeroIcons.chatBubbleLeft,
-  'chatBubbleOvalLeftEllipsis': HeroIcons.chatBubbleOvalLeftEllipsis,
-  'chatBubbleOvalLeft': HeroIcons.chatBubbleOvalLeft,
-  'checkBadge': HeroIcons.checkBadge,
-  'checkCircle': HeroIcons.checkCircle,
-  'check': HeroIcons.check,
-  'chevronDoubleDown': HeroIcons.chevronDoubleDown,
-  'chevronDoubleLeft': HeroIcons.chevronDoubleLeft,
-  'chevronDoubleRight': HeroIcons.chevronDoubleRight,
-  'chevronDoubleUp': HeroIcons.chevronDoubleUp,
-  'chevronDown': HeroIcons.chevronDown,
-  'chevronLeft': HeroIcons.chevronLeft,
-  'chevronRight': HeroIcons.chevronRight,
-  'chevronUpDown': HeroIcons.chevronUpDown,
-  'chevronUp': HeroIcons.chevronUp,
-  'circleStack': HeroIcons.circleStack,
-  'clipboardDocumentCheck': HeroIcons.clipboardDocumentCheck,
-  'clipboardDocumentList': HeroIcons.clipboardDocumentList,
-  'clipboardDocument': HeroIcons.clipboardDocument,
-  'clipboard': HeroIcons.clipboard,
-  'clock': HeroIcons.clock,
-  'cloudArrowDown': HeroIcons.cloudArrowDown,
-  'cloudArrowUp': HeroIcons.cloudArrowUp,
-  'cloud': HeroIcons.cloud,
-  'codeBracketSquare': HeroIcons.codeBracketSquare,
-  'codeBracket': HeroIcons.codeBracket,
-  'cog6Tooth': HeroIcons.cog6Tooth,
-  'cog8Tooth': HeroIcons.cog8Tooth,
-  'cog': HeroIcons.cog,
-  'commandLine': HeroIcons.commandLine,
-  'computerDesktop': HeroIcons.computerDesktop,
-  'cpuChip': HeroIcons.cpuChip,
-  'creditCard': HeroIcons.creditCard,
-  'cubeTransparent': HeroIcons.cubeTransparent,
-  'cube': HeroIcons.cube,
-  'currencyBangladeshi': HeroIcons.currencyBangladeshi,
-  'currencyDollar': HeroIcons.currencyDollar,
-  'currencyEuro': HeroIcons.currencyEuro,
-  'currencyPound': HeroIcons.currencyPound,
-  'currencyRupee': HeroIcons.currencyRupee,
-  'currencyYen': HeroIcons.currencyYen,
-  'cursorArrowRays': HeroIcons.cursorArrowRays,
-  'cursorArrowRipple': HeroIcons.cursorArrowRipple,
-  'devicePhoneMobile': HeroIcons.devicePhoneMobile,
-  'deviceTablet': HeroIcons.deviceTablet,
-  'documentArrowDown': HeroIcons.documentArrowDown,
-  'documentArrowUp': HeroIcons.documentArrowUp,
-  'documentChartBar': HeroIcons.documentChartBar,
-  'documentCheck': HeroIcons.documentCheck,
-  'documentDuplicate': HeroIcons.documentDuplicate,
-  'documentMagnifyingGlass': HeroIcons.documentMagnifyingGlass,
-  'documentMinus': HeroIcons.documentMinus,
-  'documentPlus': HeroIcons.documentPlus,
-  'documentText': HeroIcons.documentText,
-  'document': HeroIcons.document,
-  'ellipsisHorizontalCircle': HeroIcons.ellipsisHorizontalCircle,
-  'ellipsisHorizontal': HeroIcons.ellipsisHorizontal,
-  'ellipsisVertical': HeroIcons.ellipsisVertical,
-  'envelopeOpen': HeroIcons.envelopeOpen,
-  'envelope': HeroIcons.envelope,
-  'exclamationCircle': HeroIcons.exclamationCircle,
-  'exclamationTriangle': HeroIcons.exclamationTriangle,
-  'eyeDropper': HeroIcons.eyeDropper,
-  'eyeSlash': HeroIcons.eyeSlash,
-  'eye': HeroIcons.eye,
-  'faceFrown': HeroIcons.faceFrown,
-  'faceSmile': HeroIcons.faceSmile,
-  'film': HeroIcons.film,
-  'fingerPrint': HeroIcons.fingerPrint,
-  'fire': HeroIcons.fire,
-  'flag': HeroIcons.flag,
-  'folderArrowDown': HeroIcons.folderArrowDown,
-  'folderMinus': HeroIcons.folderMinus,
-  'folderOpen': HeroIcons.folderOpen,
-  'folderPlus': HeroIcons.folderPlus,
-  'folder': HeroIcons.folder,
-  'forward': HeroIcons.forward,
-  'funnel': HeroIcons.funnel,
-  'gif': HeroIcons.gif,
-  'giftTop': HeroIcons.giftTop,
-  'gift': HeroIcons.gift,
-  'globeAlt': HeroIcons.globeAlt,
-  'globeAmericas': HeroIcons.globeAmericas,
-  'globeAsiaAustralia': HeroIcons.globeAsiaAustralia,
-  'globeEuropeAfrica': HeroIcons.globeEuropeAfrica,
-  'handRaised': HeroIcons.handRaised,
-  'handThumbDown': HeroIcons.handThumbDown,
-  'handThumbUp': HeroIcons.handThumbUp,
-  'hashtag': HeroIcons.hashtag,
-  'heart': HeroIcons.heart,
-  'homeModern': HeroIcons.homeModern,
-  'home': HeroIcons.home,
-  'identification': HeroIcons.identification,
-  'inboxArrowDown': HeroIcons.inboxArrowDown,
-  'inboxStack': HeroIcons.inboxStack,
-  'inbox': HeroIcons.inbox,
-  'informationCircle': HeroIcons.informationCircle,
-  'key': HeroIcons.key,
-  'language': HeroIcons.language,
-  'lifebuoy': HeroIcons.lifebuoy,
-  'lightBulb': HeroIcons.lightBulb,
-  'link': HeroIcons.link,
-  'listBullet': HeroIcons.listBullet,
-  'lockClosed': HeroIcons.lockClosed,
-  'lockOpen': HeroIcons.lockOpen,
-  'magnifyingGlassCircle': HeroIcons.magnifyingGlassCircle,
-  'magnifyingGlassMinus': HeroIcons.magnifyingGlassMinus,
-  'magnifyingGlassPlus': HeroIcons.magnifyingGlassPlus,
-  'magnifyingGlass': HeroIcons.magnifyingGlass,
-  'mapPin': HeroIcons.mapPin,
-  'map': HeroIcons.map,
-  'megaphone': HeroIcons.megaphone,
-  'microphone': HeroIcons.microphone,
-  'minusCircle': HeroIcons.minusCircle,
-  'minusSmall': HeroIcons.minusSmall,
-  'minus': HeroIcons.minus,
-  'moon': HeroIcons.moon,
-  'musicalNote': HeroIcons.musicalNote,
-  'newspaper': HeroIcons.newspaper,
-  'noSymbol': HeroIcons.noSymbol,
-  'paintBrush': HeroIcons.paintBrush,
-  'paperAirplane': HeroIcons.paperAirplane,
-  'paperClip': HeroIcons.paperClip,
-  'pauseCircle': HeroIcons.pauseCircle,
-  'pause': HeroIcons.pause,
-  'pencilSquare': HeroIcons.pencilSquare,
-  'pencil': HeroIcons.pencil,
-  'phoneArrowDownLeft': HeroIcons.phoneArrowDownLeft,
-  'phoneArrowUpRight': HeroIcons.phoneArrowUpRight,
-  'phoneXMark': HeroIcons.phoneXMark,
-  'phone': HeroIcons.phone,
-  'photo': HeroIcons.photo,
-  'playCircle': HeroIcons.playCircle,
-  'playPause': HeroIcons.playPause,
-  'play': HeroIcons.play,
-  'plusCircle': HeroIcons.plusCircle,
-  'plusSmall': HeroIcons.plusSmall,
-  'plus': HeroIcons.plus,
-  'power': HeroIcons.power,
-  'presentationChartBar': HeroIcons.presentationChartBar,
-  'presentationChartLine': HeroIcons.presentationChartLine,
-  'printer': HeroIcons.printer,
-  'puzzlePiece': HeroIcons.puzzlePiece,
-  'qrCode': HeroIcons.qrCode,
-  'questionMarkCircle': HeroIcons.questionMarkCircle,
-  'queueList': HeroIcons.queueList,
-  'radio': HeroIcons.radio,
-  'receiptPercent': HeroIcons.receiptPercent,
-  'receiptRefund': HeroIcons.receiptRefund,
-  'rectangleGroup': HeroIcons.rectangleGroup,
-  'rectangleStack': HeroIcons.rectangleStack,
-  'rocketLaunch': HeroIcons.rocketLaunch,
-  'rss': HeroIcons.rss,
-  'scale': HeroIcons.scale,
-  'scissors': HeroIcons.scissors,
-  'serverStack': HeroIcons.serverStack,
-  'server': HeroIcons.server,
-  'share': HeroIcons.share,
-  'shieldCheck': HeroIcons.shieldCheck,
-  'shieldExclamation': HeroIcons.shieldExclamation,
-  'shoppingBag': HeroIcons.shoppingBag,
-  'shoppingCart': HeroIcons.shoppingCart,
-  'signalSlash': HeroIcons.signalSlash,
-  'signal': HeroIcons.signal,
-  'sparkles': HeroIcons.sparkles,
-  'speakerWave': HeroIcons.speakerWave,
-  'speakerXMark': HeroIcons.speakerXMark,
-  'square2Stack': HeroIcons.square2Stack,
-  'square3Stack3d': HeroIcons.square3Stack3d,
-  'squares2x2': HeroIcons.squares2x2,
-  'squaresPlus': HeroIcons.squaresPlus,
-  'star': HeroIcons.star,
-  'stopCircle': HeroIcons.stopCircle,
-  'stop': HeroIcons.stop,
-  'sun': HeroIcons.sun,
-  'swatch': HeroIcons.swatch,
-  'tableCells': HeroIcons.tableCells,
-  'tag': HeroIcons.tag,
-  'ticket': HeroIcons.ticket,
-  'trash': HeroIcons.trash,
-  'trophy': HeroIcons.trophy,
-  'truck': HeroIcons.truck,
-  'tv': HeroIcons.tv,
-  'userCircle': HeroIcons.userCircle,
-  'userGroup': HeroIcons.userGroup,
-  'userMinus': HeroIcons.userMinus,
-  'userPlus': HeroIcons.userPlus,
-  'user': HeroIcons.user,
-  'users': HeroIcons.users,
-  'variable': HeroIcons.variable,
-  'videoCameraSlash': HeroIcons.videoCameraSlash,
-  'videoCamera': HeroIcons.videoCamera,
-  'viewColumns': HeroIcons.viewColumns,
-  'viewfinderCircle': HeroIcons.viewfinderCircle,
-  'wallet': HeroIcons.wallet,
-  'wifi': HeroIcons.wifi,
-  'window': HeroIcons.window,
-  'wrenchScrewdriver': HeroIcons.wrenchScrewdriver,
-  'wrench': HeroIcons.wrench,
-  'xCircle': HeroIcons.xCircle,
-  'xMark': HeroIcons.xMark,
-};

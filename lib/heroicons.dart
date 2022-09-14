@@ -10,7 +10,8 @@ export 'src/icons.dart';
 
 /// Similarly to Material Icons, use [HeroIcon] Widget to display HeroIcon.
 ///
-/// Icons default to [HeroIconStyle.outline]. For other icons, set [style] to either [HeroIconStyle.solid] or [HeroIconStyle.mini].
+/// Icons default to [HeroIconStyle.outline]. For other icons, set [style] to
+/// either [HeroIconStyle.solid] or [HeroIconStyle.mini].
 ///
 /// ```dart
 /// HeroIcon(HeroIcons.academicCap)
