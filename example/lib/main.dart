@@ -31,7 +31,7 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  State<MyHomePage> createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
@@ -50,15 +50,32 @@ class _MyHomePageState extends State<MyHomePage> {
               HeroIcon(HeroIcons.arrowLeft),
               HeroIcon(HeroIcons.arrowRight),
               HeroIcon(HeroIcons.calendar),
-              HeroIcon(HeroIcons.arrowLeft, solid: true),
-              HeroIcon(HeroIcons.arrowRight, solid: true),
-              HeroIcon(HeroIcons.calendar, solid: true),
+              HeroIcon(HeroIcons.arrowLeft, style: HeroIconStyle.solid),
+              HeroIcon(HeroIcons.arrowRight, style: HeroIconStyle.solid),
+              HeroIcon(HeroIcons.calendar, style: HeroIconStyle.solid),
               IconTheme(
                 data: IconThemeData(
                   size: 40,
                   color: Colors.blue,
                 ),
-                child: HeroIcon(HeroIcons.calendar, solid: true),
+                child: HeroIcon(
+                  HeroIcons.calendar,
+                  style: HeroIconStyle.outline,
+                ),
+              ),
+              IconTheme(
+                data: IconThemeData(
+                  size: 40,
+                  color: Colors.blue,
+                ),
+                child: HeroIcon(HeroIcons.calendar, style: HeroIconStyle.solid),
+              ),
+              IconTheme(
+                data: IconThemeData(
+                  size: 40,
+                  color: Colors.blue,
+                ),
+                child: HeroIcon(HeroIcons.calendar, style: HeroIconStyle.mini),
               ),
             ],
           ),

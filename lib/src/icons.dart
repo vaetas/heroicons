@@ -5,20 +5,38 @@ class HeroIcons {
 
   final String name;
 
-  /// Hand icon
-  static const hand = HeroIcons._('hand');
+  /// Bars 3 Bottom Right icon
+  static const bars3BottomRight = HeroIcons._('bars-3-bottom-right');
 
-  /// Search icon
-  static const search = HeroIcons._('search');
+  /// Cpu Chip icon
+  static const cpuChip = HeroIcons._('cpu-chip');
+
+  /// Arrow Right On Rectangle icon
+  static const arrowRightOnRectangle = HeroIcons._('arrow-right-on-rectangle');
+
+  /// Arrow Top Right On Square icon
+  static const arrowTopRightOnSquare = HeroIcons._('arrow-top-right-on-square');
+
+  /// Queue List icon
+  static const queueList = HeroIcons._('queue-list');
+
+  /// Arrow Up Circle icon
+  static const arrowUpCircle = HeroIcons._('arrow-up-circle');
+
+  /// Pause Circle icon
+  static const pauseCircle = HeroIcons._('pause-circle');
 
   /// Arrow Down icon
   static const arrowDown = HeroIcons._('arrow-down');
 
-  /// Volume Off icon
-  static const volumeOff = HeroIcons._('volume-off');
+  /// Megaphone icon
+  static const megaphone = HeroIcons._('megaphone');
 
-  /// Dots Horizontal icon
-  static const dotsHorizontal = HeroIcons._('dots-horizontal');
+  /// Computer Desktop icon
+  static const computerDesktop = HeroIcons._('computer-desktop');
+
+  /// Arrow Small Up icon
+  static const arrowSmallUp = HeroIcons._('arrow-small-up');
 
   /// Scissors icon
   static const scissors = HeroIcons._('scissors');
@@ -26,38 +44,26 @@ class HeroIcons {
   /// Cog icon
   static const cog = HeroIcons._('cog');
 
+  /// Play Circle icon
+  static const playCircle = HeroIcons._('play-circle');
+
+  /// Viewfinder Circle icon
+  static const viewfinderCircle = HeroIcons._('viewfinder-circle');
+
   /// Currency Pound icon
   static const currencyPound = HeroIcons._('currency-pound');
 
-  /// Sort Descending icon
-  static const sortDescending = HeroIcons._('sort-descending');
-
-  /// Reply icon
-  static const reply = HeroIcons._('reply');
-
-  /// Thumb Up icon
-  static const thumbUp = HeroIcons._('thumb-up');
-
-  /// Translate icon
-  static const translate = HeroIcons._('translate');
-
-  /// Adjustments icon
-  static const adjustments = HeroIcons._('adjustments');
+  /// Battery 50 icon
+  static const battery50 = HeroIcons._('battery-50');
 
   /// User icon
   static const user = HeroIcons._('user');
 
-  /// View Grid icon
-  static const viewGrid = HeroIcons._('view-grid');
-
-  /// Receipt Tax icon
-  static const receiptTax = HeroIcons._('receipt-tax');
+  /// Arrow Uturn Left icon
+  static const arrowUturnLeft = HeroIcons._('arrow-uturn-left');
 
   /// X Circle icon
   static const xCircle = HeroIcons._('x-circle');
-
-  /// View List icon
-  static const viewList = HeroIcons._('view-list');
 
   /// Home icon
   static const home = HeroIcons._('home');
@@ -65,11 +71,14 @@ class HeroIcons {
   /// Globe Alt icon
   static const globeAlt = HeroIcons._('globe-alt');
 
+  /// No Symbol icon
+  static const noSymbol = HeroIcons._('no-symbol');
+
   /// Chevron Double Right icon
   static const chevronDoubleRight = HeroIcons._('chevron-double-right');
 
-  /// Library icon
-  static const library = HeroIcons._('library');
+  /// Arrow Up Left icon
+  static const arrowUpLeft = HeroIcons._('arrow-up-left');
 
   /// Chevron Down icon
   static const chevronDown = HeroIcons._('chevron-down');
@@ -77,29 +86,58 @@ class HeroIcons {
   /// Chevron Double Left icon
   static const chevronDoubleLeft = HeroIcons._('chevron-double-left');
 
-  /// Logout icon
-  static const logout = HeroIcons._('logout');
+  /// Document Check icon
+  static const documentCheck = HeroIcons._('document-check');
 
-  /// Chip icon
-  static const chip = HeroIcons._('chip');
+  /// Arrow Down On Square icon
+  static const arrowDownOnSquare = HeroIcons._('arrow-down-on-square');
+
+  /// Home Modern icon
+  static const homeModern = HeroIcons._('home-modern');
 
   /// Ticket icon
   static const ticket = HeroIcons._('ticket');
 
+  /// Arrows Up Down icon
+  static const arrowsUpDown = HeroIcons._('arrows-up-down');
+
+  /// Adjustments Horizontal icon
+  static const adjustmentsHorizontal = HeroIcons._('adjustments-horizontal');
+
+  /// Cursor Arrow Ripple icon
+  static const cursorArrowRipple = HeroIcons._('cursor-arrow-ripple');
+
+  /// Arrow Path Rounded Square icon
+  static const arrowPathRoundedSquare =
+      HeroIcons._('arrow-path-rounded-square');
+
   /// Tag icon
   static const tag = HeroIcons._('tag');
+
+  /// Arrow Small Right icon
+  static const arrowSmallRight = HeroIcons._('arrow-small-right');
+
+  /// Document Arrow Up icon
+  static const documentArrowUp = HeroIcons._('document-arrow-up');
 
   /// Briefcase icon
   static const briefcase = HeroIcons._('briefcase');
 
-  /// Arrow Circle Up icon
-  static const arrowCircleUp = HeroIcons._('arrow-circle-up');
+  /// Ellipsis Vertical icon
+  static const ellipsisVertical = HeroIcons._('ellipsis-vertical');
 
-  /// Save As icon
-  static const saveAs = HeroIcons._('save-as');
+  /// Chat Bubble Bottom Center icon
+  static const chatBubbleBottomCenter =
+      HeroIcons._('chat-bubble-bottom-center');
 
-  /// Document Search icon
-  static const documentSearch = HeroIcons._('document-search');
+  /// Cursor Arrow Rays icon
+  static const cursorArrowRays = HeroIcons._('cursor-arrow-rays');
+
+  /// Battery 100 icon
+  static const battery100 = HeroIcons._('battery-100');
+
+  /// Chat Bubble Oval Left icon
+  static const chatBubbleOvalLeft = HeroIcons._('chat-bubble-oval-left');
 
   /// Map icon
   static const map = HeroIcons._('map');
@@ -107,23 +145,26 @@ class HeroIcons {
   /// Inbox icon
   static const inbox = HeroIcons._('inbox');
 
+  /// Power icon
+  static const power = HeroIcons._('power');
+
   /// Microphone icon
   static const microphone = HeroIcons._('microphone');
 
-  /// Database icon
-  static const database = HeroIcons._('database');
+  /// Inbox Arrow Down icon
+  static const inboxArrowDown = HeroIcons._('inbox-arrow-down');
 
-  /// Puzzle icon
-  static const puzzle = HeroIcons._('puzzle');
+  /// Play Pause icon
+  static const playPause = HeroIcons._('play-pause');
 
-  /// Duplicate icon
-  static const duplicate = HeroIcons._('duplicate');
+  /// Signal icon
+  static const signal = HeroIcons._('signal');
 
-  /// Folder Remove icon
-  static const folderRemove = HeroIcons._('folder-remove');
+  /// Paint Brush icon
+  static const paintBrush = HeroIcons._('paint-brush');
 
-  /// Terminal icon
-  static const terminal = HeroIcons._('terminal');
+  /// Cog 8 Tooth icon
+  static const cog8Tooth = HeroIcons._('cog-8-tooth');
 
   /// Sparkles icon
   static const sparkles = HeroIcons._('sparkles');
@@ -131,38 +172,67 @@ class HeroIcons {
   /// Chevron Up icon
   static const chevronUp = HeroIcons._('chevron-up');
 
+  /// Speaker Wave icon
+  static const speakerWave = HeroIcons._('speaker-wave');
+
+  /// Table Cells icon
+  static const tableCells = HeroIcons._('table-cells');
+
+  /// Arrow Path icon
+  static const arrowPath = HeroIcons._('arrow-path');
+
+  /// Clipboard Document Check icon
+  static const clipboardDocumentCheck = HeroIcons._('clipboard-document-check');
+
+  /// Arrow Down Left icon
+  static const arrowDownLeft = HeroIcons._('arrow-down-left');
+
+  /// Hand Thumb Up icon
+  static const handThumbUp = HeroIcons._('hand-thumb-up');
+
   /// Folder Open icon
   static const folderOpen = HeroIcons._('folder-open');
 
-  /// Document Add icon
-  static const documentAdd = HeroIcons._('document-add');
-
-  /// X icon
-  static const x = HeroIcons._('x');
+  /// Arrow Up Tray icon
+  static const arrowUpTray = HeroIcons._('arrow-up-tray');
 
   /// At Symbol icon
   static const atSymbol = HeroIcons._('at-symbol');
 
-  /// Bookmark Alt icon
-  static const bookmarkAlt = HeroIcons._('bookmark-alt');
+  /// Qr Code icon
+  static const qrCode = HeroIcons._('qr-code');
 
-  /// Cloud Upload icon
-  static const cloudUpload = HeroIcons._('cloud-upload');
+  /// Arrow Up On Square icon
+  static const arrowUpOnSquare = HeroIcons._('arrow-up-on-square');
+
+  /// Exclamation Triangle icon
+  static const exclamationTriangle = HeroIcons._('exclamation-triangle');
+
+  /// Building Office 2 icon
+  static const buildingOffice2 = HeroIcons._('building-office-2');
+
+  /// Ellipsis Horizontal Circle icon
+  static const ellipsisHorizontalCircle =
+      HeroIcons._('ellipsis-horizontal-circle');
 
   /// Fire icon
   static const fire = HeroIcons._('fire');
 
-  /// Ban icon
-  static const ban = HeroIcons._('ban');
-
   /// Shopping Bag icon
   static const shoppingBag = HeroIcons._('shopping-bag');
 
-  /// Chat Alt 2 icon
-  static const chatAlt2 = HeroIcons._('chat-alt-2');
+  /// Globe Asia Australia icon
+  static const globeAsiaAustralia = HeroIcons._('globe-asia-australia');
 
-  /// Arrow Sm Up icon
-  static const arrowSmUp = HeroIcons._('arrow-sm-up');
+  /// Plus Small icon
+  static const plusSmall = HeroIcons._('plus-small');
+
+  /// Document Magnifying Glass icon
+  static const documentMagnifyingGlass =
+      HeroIcons._('document-magnifying-glass');
+
+  /// Wrench Screwdriver icon
+  static const wrenchScrewdriver = HeroIcons._('wrench-screwdriver');
 
   /// Chevron Right icon
   static const chevronRight = HeroIcons._('chevron-right');
@@ -170,11 +240,32 @@ class HeroIcons {
   /// Clipboard icon
   static const clipboard = HeroIcons._('clipboard');
 
+  /// Archive Box Arrow Down icon
+  static const archiveBoxArrowDown = HeroIcons._('archive-box-arrow-down');
+
+  /// Bug Ant icon
+  static const bugAnt = HeroIcons._('bug-ant');
+
+  /// Bars 3 Bottom Left icon
+  static const bars3BottomLeft = HeroIcons._('bars-3-bottom-left');
+
+  /// Arrow Small Down icon
+  static const arrowSmallDown = HeroIcons._('arrow-small-down');
+
   /// Link icon
   static const link = HeroIcons._('link');
 
   /// Key icon
   static const key = HeroIcons._('key');
+
+  /// Phone Arrow Down Left icon
+  static const phoneArrowDownLeft = HeroIcons._('phone-arrow-down-left');
+
+  /// Arrows Right Left icon
+  static const arrowsRightLeft = HeroIcons._('arrows-right-left');
+
+  /// Bars Arrow Down icon
+  static const barsArrowDown = HeroIcons._('bars-arrow-down');
 
   /// Beaker icon
   static const beaker = HeroIcons._('beaker');
@@ -182,92 +273,119 @@ class HeroIcons {
   /// Arrow Right icon
   static const arrowRight = HeroIcons._('arrow-right');
 
-  /// Selector icon
-  static const selector = HeroIcons._('selector');
+  /// Stop Circle icon
+  static const stopCircle = HeroIcons._('stop-circle');
 
-  /// Qrcode icon
-  static const qrcode = HeroIcons._('qrcode');
+  /// Arrow Left Circle icon
+  static const arrowLeftCircle = HeroIcons._('arrow-left-circle');
+
+  /// Globe Europe Africa icon
+  static const globeEuropeAfrica = HeroIcons._('globe-europe-africa');
 
   /// Currency Rupee icon
   static const currencyRupee = HeroIcons._('currency-rupee');
 
-  /// Menu Alt 4 icon
-  static const menuAlt4 = HeroIcons._('menu-alt-4');
+  /// Arrow Up On Square Stack icon
+  static const arrowUpOnSquareStack = HeroIcons._('arrow-up-on-square-stack');
+
+  /// Bars 2 icon
+  static const bars2 = HeroIcons._('bars-2');
+
+  /// Envelope icon
+  static const envelope = HeroIcons._('envelope');
 
   /// Paper Clip icon
   static const paperClip = HeroIcons._('paper-clip');
 
-  /// Archive icon
-  static const archive = HeroIcons._('archive');
-
-  /// Phone Outgoing icon
-  static const phoneOutgoing = HeroIcons._('phone-outgoing');
-
-  /// Mail icon
-  static const mail = HeroIcons._('mail');
+  /// List Bullet icon
+  static const listBullet = HeroIcons._('list-bullet');
 
   /// Currency Bangladeshi icon
   static const currencyBangladeshi = HeroIcons._('currency-bangladeshi');
 
-  /// Download icon
-  static const download = HeroIcons._('download');
+  /// Musical Note icon
+  static const musicalNote = HeroIcons._('musical-note');
 
-  /// Chat Alt icon
-  static const chatAlt = HeroIcons._('chat-alt');
+  /// Bars 3 icon
+  static const bars3 = HeroIcons._('bars-3');
+
+  /// Code Bracket icon
+  static const codeBracket = HeroIcons._('code-bracket');
 
   /// Book Open icon
   static const bookOpen = HeroIcons._('book-open');
 
-  /// Location Marker icon
-  static const locationMarker = HeroIcons._('location-marker');
-
-  /// Arrow Sm Down icon
-  static const arrowSmDown = HeroIcons._('arrow-sm-down');
+  /// Bell Snooze icon
+  static const bellSnooze = HeroIcons._('bell-snooze');
 
   /// Server icon
   static const server = HeroIcons._('server');
 
-  /// Plus Sm icon
-  static const plusSm = HeroIcons._('plus-sm');
+  /// Bolt icon
+  static const bolt = HeroIcons._('bolt');
 
-  /// Inbox In icon
-  static const inboxIn = HeroIcons._('inbox-in');
+  /// Tv icon
+  static const tv = HeroIcons._('tv');
 
-  /// Arrow Narrow Left icon
-  static const arrowNarrowLeft = HeroIcons._('arrow-narrow-left');
+  /// Arrow Down Tray icon
+  static const arrowDownTray = HeroIcons._('arrow-down-tray');
 
-  /// Login icon
-  static const login = HeroIcons._('login');
+  /// Document Chart Bar icon
+  static const documentChartBar = HeroIcons._('document-chart-bar');
+
+  /// User Plus icon
+  static const userPlus = HeroIcons._('user-plus');
+
+  /// Pencil Square icon
+  static const pencilSquare = HeroIcons._('pencil-square');
+
+  /// Cloud Arrow Up icon
+  static const cloudArrowUp = HeroIcons._('cloud-arrow-up');
+
+  /// Radio icon
+  static const radio = HeroIcons._('radio');
+
+  /// Document Plus icon
+  static const documentPlus = HeroIcons._('document-plus');
 
   /// Variable icon
   static const variable = HeroIcons._('variable');
 
-  /// Menu Alt 1 icon
-  static const menuAlt1 = HeroIcons._('menu-alt-1');
+  /// Battery 0 icon
+  static const battery0 = HeroIcons._('battery-0');
+
+  /// User Minus icon
+  static const userMinus = HeroIcons._('user-minus');
+
+  /// Wallet icon
+  static const wallet = HeroIcons._('wallet');
+
+  /// Speaker X Mark icon
+  static const speakerXMark = HeroIcons._('speaker-x-mark');
+
+  /// Code Bracket Square icon
+  static const codeBracketSquare = HeroIcons._('code-bracket-square');
 
   /// Bell icon
   static const bell = HeroIcons._('bell');
 
-  /// Code icon
-  static const code = HeroIcons._('code');
+  /// Funnel icon
+  static const funnel = HeroIcons._('funnel');
 
   /// Cake icon
   static const cake = HeroIcons._('cake');
 
-  /// Arrow Narrow Up icon
-  static const arrowNarrowUp = HeroIcons._('arrow-narrow-up');
+  /// Gif icon
+  static const gif = HeroIcons._('gif');
 
   /// Flag icon
   static const flag = HeroIcons._('flag');
 
-  /// Eye Off icon
-  static const eyeOff = HeroIcons._('eye-off');
+  /// Magnifying Glass Minus icon
+  static const magnifyingGlassMinus = HeroIcons._('magnifying-glass-minus');
 
   /// Stop icon
   static const stop = HeroIcons._('stop');
-
-  /// Arrow Circle Left icon
-  static const arrowCircleLeft = HeroIcons._('arrow-circle-left');
 
   /// Newspaper icon
   static const newspaper = HeroIcons._('newspaper');
@@ -275,41 +393,41 @@ class HeroIcons {
   /// Cube icon
   static const cube = HeroIcons._('cube');
 
-  /// Emoji Happy icon
-  static const emojiHappy = HeroIcons._('emoji-happy');
+  /// Arrow Long Left icon
+  static const arrowLongLeft = HeroIcons._('arrow-long-left');
 
-  /// Minus Sm icon
-  static const minusSm = HeroIcons._('minus-sm');
+  /// Document Arrow Down icon
+  static const documentArrowDown = HeroIcons._('document-arrow-down');
 
-  /// Dots Circle Horizontal icon
-  static const dotsCircleHorizontal = HeroIcons._('dots-circle-horizontal');
+  /// Clipboard Document icon
+  static const clipboardDocument = HeroIcons._('clipboard-document');
 
-  /// Support icon
-  static const support = HeroIcons._('support');
+  /// Envelope Open icon
+  static const envelopeOpen = HeroIcons._('envelope-open');
 
-  /// Clipboard List icon
-  static const clipboardList = HeroIcons._('clipboard-list');
-
-  /// User Remove icon
-  static const userRemove = HeroIcons._('user-remove');
+  /// Trophy icon
+  static const trophy = HeroIcons._('trophy');
 
   /// Plus icon
   static const plus = HeroIcons._('plus');
 
+  /// Bars 4 icon
+  static const bars4 = HeroIcons._('bars-4');
+
   /// Document icon
   static const document = HeroIcons._('document');
-
-  /// Music Note icon
-  static const musicNote = HeroIcons._('music-note');
 
   /// Check icon
   static const check = HeroIcons._('check');
 
-  /// Menu Alt 2 icon
-  static const menuAlt2 = HeroIcons._('menu-alt-2');
+  /// Face Frown icon
+  static const faceFrown = HeroIcons._('face-frown');
 
-  /// View Boards icon
-  static const viewBoards = HeroIcons._('view-boards');
+  /// Minus Small icon
+  static const minusSmall = HeroIcons._('minus-small');
+
+  /// Archive Box X Mark icon
+  static const archiveBoxXMark = HeroIcons._('archive-box-x-mark');
 
   /// Rss icon
   static const rss = HeroIcons._('rss');
@@ -317,80 +435,77 @@ class HeroIcons {
   /// Wifi icon
   static const wifi = HeroIcons._('wifi');
 
-  /// Menu Alt 3 icon
-  static const menuAlt3 = HeroIcons._('menu-alt-3');
-
   /// Scale icon
   static const scale = HeroIcons._('scale');
 
-  /// Arrow Circle Right icon
-  static const arrowCircleRight = HeroIcons._('arrow-circle-right');
+  /// Rectangle Group icon
+  static const rectangleGroup = HeroIcons._('rectangle-group');
 
-  /// User Add icon
-  static const userAdd = HeroIcons._('user-add');
+  /// X Mark icon
+  static const xMark = HeroIcons._('x-mark');
 
-  /// Arrow Sm Left icon
-  static const arrowSmLeft = HeroIcons._('arrow-sm-left');
+  /// Folder Plus icon
+  static const folderPlus = HeroIcons._('folder-plus');
 
-  /// Zoom In icon
-  static const zoomIn = HeroIcons._('zoom-in');
+  /// Squares 2x2 icon
+  static const squares2x2 = HeroIcons._('squares-2x2');
 
-  /// Arrow Sm Right icon
-  static const arrowSmRight = HeroIcons._('arrow-sm-right');
+  /// Arrow Long Right icon
+  static const arrowLongRight = HeroIcons._('arrow-long-right');
 
   /// Cube Transparent icon
   static const cubeTransparent = HeroIcons._('cube-transparent');
 
-  /// Refresh icon
-  static const refresh = HeroIcons._('refresh');
+  /// Signal Slash icon
+  static const signalSlash = HeroIcons._('signal-slash');
+
+  /// Arrow Right Circle icon
+  static const arrowRightCircle = HeroIcons._('arrow-right-circle');
 
   /// Check Circle icon
   static const checkCircle = HeroIcons._('check-circle');
 
-  /// Thumb Down icon
-  static const thumbDown = HeroIcons._('thumb-down');
-
   /// Device Tablet icon
   static const deviceTablet = HeroIcons._('device-tablet');
-
-  /// Save icon
-  static const save = HeroIcons._('save');
-
-  /// Status Online icon
-  static const statusOnline = HeroIcons._('status-online');
 
   /// Paper Airplane icon
   static const paperAirplane = HeroIcons._('paper-airplane');
 
+  /// Eye Dropper icon
+  static const eyeDropper = HeroIcons._('eye-dropper');
+
   /// Shield Exclamation icon
   static const shieldExclamation = HeroIcons._('shield-exclamation');
 
-  /// Fast Forward icon
-  static const fastForward = HeroIcons._('fast-forward');
+  /// Archive Box icon
+  static const archiveBox = HeroIcons._('archive-box');
+
+  /// Device Phone Mobile icon
+  static const devicePhoneMobile = HeroIcons._('device-phone-mobile');
 
   /// Currency Yen icon
   static const currencyYen = HeroIcons._('currency-yen');
 
-  /// Zoom Out icon
-  static const zoomOut = HeroIcons._('zoom-out');
+  /// Bell Alert icon
+  static const bellAlert = HeroIcons._('bell-alert');
+
+  /// Face Smile icon
+  static const faceSmile = HeroIcons._('face-smile');
+
+  /// Eye Slash icon
+  static const eyeSlash = HeroIcons._('eye-slash');
 
   /// Play icon
   static const play = HeroIcons._('play');
 
-  /// Chat icon
-  static const chat = HeroIcons._('chat');
+  /// Backward icon
+  static const backward = HeroIcons._('backward');
 
-  /// Pencil Alt icon
-  static const pencilAlt = HeroIcons._('pencil-alt');
+  /// Arrow Small Left icon
+  static const arrowSmallLeft = HeroIcons._('arrow-small-left');
 
-  /// Cursor Click icon
-  static const cursorClick = HeroIcons._('cursor-click');
-
-  /// Table icon
-  static const table = HeroIcons._('table');
-
-  /// Badge Check icon
-  static const badgeCheck = HeroIcons._('badge-check');
+  /// Arrow Uturn Right icon
+  static const arrowUturnRight = HeroIcons._('arrow-uturn-right');
 
   /// Document Text icon
   static const documentText = HeroIcons._('document-text');
@@ -401,32 +516,47 @@ class HeroIcons {
   /// Printer icon
   static const printer = HeroIcons._('printer');
 
+  /// Folder Minus icon
+  static const folderMinus = HeroIcons._('folder-minus');
+
+  /// Arrow Up Right icon
+  static const arrowUpRight = HeroIcons._('arrow-up-right');
+
   /// Truck icon
   static const truck = HeroIcons._('truck');
+
+  /// Server Stack icon
+  static const serverStack = HeroIcons._('server-stack');
 
   /// Identification icon
   static const identification = HeroIcons._('identification');
 
-  /// Device Mobile icon
-  static const deviceMobile = HeroIcons._('device-mobile');
+  /// Magnifying Glass Circle icon
+  static const magnifyingGlassCircle = HeroIcons._('magnifying-glass-circle');
 
-  /// Document Report icon
-  static const documentReport = HeroIcons._('document-report');
+  /// View Columns icon
+  static const viewColumns = HeroIcons._('view-columns');
 
-  /// Document Download icon
-  static const documentDownload = HeroIcons._('document-download');
+  /// Bolt Slash icon
+  static const boltSlash = HeroIcons._('bolt-slash');
 
-  /// Emoji Sad icon
-  static const emojiSad = HeroIcons._('emoji-sad');
+  /// Hand Thumb Down icon
+  static const handThumbDown = HeroIcons._('hand-thumb-down');
+
+  /// Inbox Stack icon
+  static const inboxStack = HeroIcons._('inbox-stack');
 
   /// Exclamation Circle icon
   static const exclamationCircle = HeroIcons._('exclamation-circle');
 
+  /// Document Minus icon
+  static const documentMinus = HeroIcons._('document-minus');
+
+  /// Bars 3 Center Left icon
+  static const bars3CenterLeft = HeroIcons._('bars-3-center-left');
+
   /// Currency Euro icon
   static const currencyEuro = HeroIcons._('currency-euro');
-
-  /// Arrows Expand icon
-  static const arrowsExpand = HeroIcons._('arrows-expand');
 
   /// Trash icon
   static const trash = HeroIcons._('trash');
@@ -434,14 +564,11 @@ class HeroIcons {
   /// Chart Bar icon
   static const chartBar = HeroIcons._('chart-bar');
 
-  /// View Grid Add icon
-  static const viewGridAdd = HeroIcons._('view-grid-add');
+  /// Magnifying Glass Plus icon
+  static const magnifyingGlassPlus = HeroIcons._('magnifying-glass-plus');
 
-  /// Switch Horizontal icon
-  static const switchHorizontal = HeroIcons._('switch-horizontal');
-
-  /// Volume Up icon
-  static const volumeUp = HeroIcons._('volume-up');
+  /// Banknotes icon
+  static const banknotes = HeroIcons._('banknotes');
 
   /// Hashtag icon
   static const hashtag = HeroIcons._('hashtag');
@@ -449,44 +576,56 @@ class HeroIcons {
   /// Presentation Chart Line icon
   static const presentationChartLine = HeroIcons._('presentation-chart-line');
 
-  /// Template icon
-  static const template = HeroIcons._('template');
-
   /// Star icon
   static const star = HeroIcons._('star');
 
   /// Sun icon
   static const sun = HeroIcons._('sun');
 
+  /// Wrench icon
+  static const wrench = HeroIcons._('wrench');
+
+  /// Arrow Left On Rectangle icon
+  static const arrowLeftOnRectangle = HeroIcons._('arrow-left-on-rectangle');
+
   /// Receipt Refund icon
   static const receiptRefund = HeroIcons._('receipt-refund');
 
-  /// Arrow Circle Down icon
-  static const arrowCircleDown = HeroIcons._('arrow-circle-down');
+  /// Bars Arrow Up icon
+  static const barsArrowUp = HeroIcons._('bars-arrow-up');
 
-  /// Folder Download icon
-  static const folderDownload = HeroIcons._('folder-download');
+  /// Receipt Percent icon
+  static const receiptPercent = HeroIcons._('receipt-percent');
+
+  /// Arrow Long Down icon
+  static const arrowLongDown = HeroIcons._('arrow-long-down');
+
+  /// Building Office icon
+  static const buildingOffice = HeroIcons._('building-office');
+
+  /// Phone Arrow Up Right icon
+  static const phoneArrowUpRight = HeroIcons._('phone-arrow-up-right');
 
   /// Chart Pie icon
   static const chartPie = HeroIcons._('chart-pie');
 
-  /// Cash icon
-  static const cash = HeroIcons._('cash');
+  /// Cloud Arrow Down icon
+  static const cloudArrowDown = HeroIcons._('cloud-arrow-down');
 
-  /// Mail Open icon
-  static const mailOpen = HeroIcons._('mail-open');
+  /// Clipboard Document List icon
+  static const clipboardDocumentList = HeroIcons._('clipboard-document-list');
 
-  /// Collection icon
-  static const collection = HeroIcons._('collection');
-
-  /// Search Circle icon
-  static const searchCircle = HeroIcons._('search-circle');
+  /// Lifebuoy icon
+  static const lifebuoy = HeroIcons._('lifebuoy');
 
   /// Plus Circle icon
   static const plusCircle = HeroIcons._('plus-circle');
 
-  /// Arrow Narrow Down icon
-  static const arrowNarrowDown = HeroIcons._('arrow-narrow-down');
+  /// Arrow Long Up icon
+  static const arrowLongUp = HeroIcons._('arrow-long-up');
+
+  /// Arrow Trending Up icon
+  static const arrowTrendingUp = HeroIcons._('arrow-trending-up');
 
   /// Information Circle icon
   static const informationCircle = HeroIcons._('information-circle');
@@ -497,17 +636,21 @@ class HeroIcons {
   /// User Circle icon
   static const userCircle = HeroIcons._('user-circle');
 
-  /// Lightning Bolt icon
-  static const lightningBolt = HeroIcons._('lightning-bolt');
+  /// Chat Bubble Oval Left Ellipsis icon
+  static const chatBubbleOvalLeftEllipsis =
+      HeroIcons._('chat-bubble-oval-left-ellipsis');
 
-  /// Office Building icon
-  static const officeBuilding = HeroIcons._('office-building');
+  /// Swatch icon
+  static const swatch = HeroIcons._('swatch');
+
+  /// Squares Plus icon
+  static const squaresPlus = HeroIcons._('squares-plus');
 
   /// Pencil icon
   static const pencil = HeroIcons._('pencil');
 
-  /// Status Offline icon
-  static const statusOffline = HeroIcons._('status-offline');
+  /// Language icon
+  static const language = HeroIcons._('language');
 
   /// User Group icon
   static const userGroup = HeroIcons._('user-group');
@@ -515,11 +658,33 @@ class HeroIcons {
   /// Document Duplicate icon
   static const documentDuplicate = HeroIcons._('document-duplicate');
 
+  /// Circle Stack icon
+  static const circleStack = HeroIcons._('circle-stack');
+
+  /// Gift Top icon
+  static const giftTop = HeroIcons._('gift-top');
+
+  /// Building Storefront icon
+  static const buildingStorefront = HeroIcons._('building-storefront');
+
+  /// Square 3 Stack 3d icon
+  static const square3Stack3d = HeroIcons._('square-3-stack-3d');
+
   /// Clock icon
   static const clock = HeroIcons._('clock');
 
+  /// Command Line icon
+  static const commandLine = HeroIcons._('command-line');
+
   /// Phone icon
   static const phone = HeroIcons._('phone');
+
+  /// Chat Bubble Bottom Center Text icon
+  static const chatBubbleBottomCenterText =
+      HeroIcons._('chat-bubble-bottom-center-text');
+
+  /// Arrow Uturn Down icon
+  static const arrowUturnDown = HeroIcons._('arrow-uturn-down');
 
   /// Eye icon
   static const eye = HeroIcons._('eye');
@@ -527,17 +692,30 @@ class HeroIcons {
   /// Light Bulb icon
   static const lightBulb = HeroIcons._('light-bulb');
 
-  /// Phone Missed Call icon
-  static const phoneMissedCall = HeroIcons._('phone-missed-call');
+  /// Chat Bubble Left Right icon
+  static const chatBubbleLeftRight = HeroIcons._('chat-bubble-left-right');
+
+  /// Adjustments Vertical icon
+  static const adjustmentsVertical = HeroIcons._('adjustments-vertical');
+
+  /// Arrow Down On Square Stack icon
+  static const arrowDownOnSquareStack =
+      HeroIcons._('arrow-down-on-square-stack');
 
   /// Gift icon
   static const gift = HeroIcons._('gift');
 
-  /// External Link icon
-  static const externalLink = HeroIcons._('external-link');
+  /// Ellipsis Horizontal icon
+  static const ellipsisHorizontal = HeroIcons._('ellipsis-horizontal');
 
   /// Question Mark Circle icon
   static const questionMarkCircle = HeroIcons._('question-mark-circle');
+
+  /// Square 2 Stack icon
+  static const square2Stack = HeroIcons._('square-2-stack');
+
+  /// Building Library icon
+  static const buildingLibrary = HeroIcons._('building-library');
 
   /// Share icon
   static const share = HeroIcons._('share');
@@ -545,20 +723,23 @@ class HeroIcons {
   /// Arrow Up icon
   static const arrowUp = HeroIcons._('arrow-up');
 
-  /// Folder Add icon
-  static const folderAdd = HeroIcons._('folder-add');
+  /// Puzzle Piece icon
+  static const puzzlePiece = HeroIcons._('puzzle-piece');
 
-  /// Filter icon
-  static const filter = HeroIcons._('filter');
+  /// Map Pin icon
+  static const mapPin = HeroIcons._('map-pin');
 
-  /// Arrow Narrow Right icon
-  static const arrowNarrowRight = HeroIcons._('arrow-narrow-right');
+  /// Video Camera Slash icon
+  static const videoCameraSlash = HeroIcons._('video-camera-slash');
 
-  /// Phone Incoming icon
-  static const phoneIncoming = HeroIcons._('phone-incoming');
+  /// Check Badge icon
+  static const checkBadge = HeroIcons._('check-badge');
 
-  /// Photograph icon
-  static const photograph = HeroIcons._('photograph');
+  /// Globe Americas icon
+  static const globeAmericas = HeroIcons._('globe-americas');
+
+  /// Bell Slash icon
+  static const bellSlash = HeroIcons._('bell-slash');
 
   /// Calendar icon
   static const calendar = HeroIcons._('calendar');
@@ -566,17 +747,20 @@ class HeroIcons {
   /// Video Camera icon
   static const videoCamera = HeroIcons._('video-camera');
 
-  /// Globe icon
-  static const globe = HeroIcons._('globe');
-
   /// Arrow Left icon
   static const arrowLeft = HeroIcons._('arrow-left');
+
+  /// Magnifying Glass icon
+  static const magnifyingGlass = HeroIcons._('magnifying-glass');
+
+  /// Arrows Pointing In icon
+  static const arrowsPointingIn = HeroIcons._('arrows-pointing-in');
 
   /// Minus Circle icon
   static const minusCircle = HeroIcons._('minus-circle');
 
-  /// Desktop Computer icon
-  static const desktopComputer = HeroIcons._('desktop-computer');
+  /// Arrow Down Right icon
+  static const arrowDownRight = HeroIcons._('arrow-down-right');
 
   /// Lock Closed icon
   static const lockClosed = HeroIcons._('lock-closed');
@@ -584,44 +768,53 @@ class HeroIcons {
   /// Finger Print icon
   static const fingerPrint = HeroIcons._('finger-print');
 
+  /// Hand Raised icon
+  static const handRaised = HeroIcons._('hand-raised');
+
+  /// Rocket Launch icon
+  static const rocketLaunch = HeroIcons._('rocket-launch');
+
+  /// Arrow Trending Down icon
+  static const arrowTrendingDown = HeroIcons._('arrow-trending-down');
+
+  /// Chat Bubble Left icon
+  static const chatBubbleLeft = HeroIcons._('chat-bubble-left');
+
   /// Cloud icon
   static const cloud = HeroIcons._('cloud');
 
-  /// Document Remove icon
-  static const documentRemove = HeroIcons._('document-remove');
+  /// Window icon
+  static const window = HeroIcons._('window');
 
-  /// Rewind icon
-  static const rewind = HeroIcons._('rewind');
-
-  /// Speakerphone icon
-  static const speakerphone = HeroIcons._('speakerphone');
-
-  /// Upload icon
-  static const upload = HeroIcons._('upload');
-
-  /// Trending Down icon
-  static const trendingDown = HeroIcons._('trending-down');
+  /// Arrows Pointing Out icon
+  static const arrowsPointingOut = HeroIcons._('arrows-pointing-out');
 
   /// Pause icon
   static const pause = HeroIcons._('pause');
 
+  /// Arrow Down Circle icon
+  static const arrowDownCircle = HeroIcons._('arrow-down-circle');
+
+  /// Forward icon
+  static const forward = HeroIcons._('forward');
+
   /// Bookmark icon
   static const bookmark = HeroIcons._('bookmark');
 
-  /// Switch Vertical icon
-  static const switchVertical = HeroIcons._('switch-vertical');
+  /// Cog 6 Tooth icon
+  static const cog6Tooth = HeroIcons._('cog-6-tooth');
+
+  /// Arrow Uturn Up icon
+  static const arrowUturnUp = HeroIcons._('arrow-uturn-up');
 
   /// Currency Dollar icon
   static const currencyDollar = HeroIcons._('currency-dollar');
 
-  /// Cloud Download icon
-  static const cloudDownload = HeroIcons._('cloud-download');
-
   /// Lock Open icon
   static const lockOpen = HeroIcons._('lock-open');
 
-  /// Menu icon
-  static const menu = HeroIcons._('menu');
+  /// Phone X Mark icon
+  static const phoneXMark = HeroIcons._('phone-x-mark');
 
   /// Backspace icon
   static const backspace = HeroIcons._('backspace');
@@ -629,20 +822,14 @@ class HeroIcons {
   /// Shopping Cart icon
   static const shoppingCart = HeroIcons._('shopping-cart');
 
-  /// Sort Ascending icon
-  static const sortAscending = HeroIcons._('sort-ascending');
-
   /// Calculator icon
   static const calculator = HeroIcons._('calculator');
-
-  /// Chart Square Bar icon
-  static const chartSquareBar = HeroIcons._('chart-square-bar');
 
   /// Shield Check icon
   static const shieldCheck = HeroIcons._('shield-check');
 
-  /// Clipboard Copy icon
-  static const clipboardCopy = HeroIcons._('clipboard-copy');
+  /// Bookmark Slash icon
+  static const bookmarkSlash = HeroIcons._('bookmark-slash');
 
   /// Presentation Chart Bar icon
   static const presentationChartBar = HeroIcons._('presentation-chart-bar');
@@ -650,14 +837,14 @@ class HeroIcons {
   /// Folder icon
   static const folder = HeroIcons._('folder');
 
+  /// Chevron Up Down icon
+  static const chevronUpDown = HeroIcons._('chevron-up-down');
+
   /// Users icon
   static const users = HeroIcons._('users');
 
-  /// Color Swatch icon
-  static const colorSwatch = HeroIcons._('color-swatch');
-
-  /// Clipboard Check icon
-  static const clipboardCheck = HeroIcons._('clipboard-check');
+  /// Folder Arrow Down icon
+  static const folderArrowDown = HeroIcons._('folder-arrow-down');
 
   /// Minus icon
   static const minus = HeroIcons._('minus');
@@ -665,11 +852,11 @@ class HeroIcons {
   /// Chevron Double Down icon
   static const chevronDoubleDown = HeroIcons._('chevron-double-down');
 
+  /// Photo icon
+  static const photo = HeroIcons._('photo');
+
   /// Chevron Left icon
   static const chevronLeft = HeroIcons._('chevron-left');
-
-  /// Annotation icon
-  static const annotation = HeroIcons._('annotation');
 
   /// Film icon
   static const film = HeroIcons._('film');
@@ -677,20 +864,27 @@ class HeroIcons {
   /// Moon icon
   static const moon = HeroIcons._('moon');
 
-  /// Exclamation icon
-  static const exclamation = HeroIcons._('exclamation');
+  /// Chart Bar Square icon
+  static const chartBarSquare = HeroIcons._('chart-bar-square');
 
-  /// Dots Vertical icon
-  static const dotsVertical = HeroIcons._('dots-vertical');
+  /// Rectangle Stack icon
+  static const rectangleStack = HeroIcons._('rectangle-stack');
+
+  /// Bookmark Square icon
+  static const bookmarkSquare = HeroIcons._('bookmark-square');
 
   /// Chevron Double Up icon
   static const chevronDoubleUp = HeroIcons._('chevron-double-up');
 
+  /// Calendar Days icon
+  static const calendarDays = HeroIcons._('calendar-days');
+
+  /// Chat Bubble Left Ellipsis icon
+  static const chatBubbleLeftEllipsis =
+      HeroIcons._('chat-bubble-left-ellipsis');
+
   /// Heart icon
   static const heart = HeroIcons._('heart');
-
-  /// Trending Up icon
-  static const trendingUp = HeroIcons._('trending-up');
 
   /// Academic Cap icon
   static const academicCap = HeroIcons._('academic-cap');
