@@ -11,7 +11,7 @@ class MyExampleWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return HeroIcon(
       HeroIcons.calendar,
-      solid: false, // Outlined icons are used by default.
+      style: HeroIconStyle.outline, // Outlined icons are used by default.
       color: Colors.red,
       size: 30,
     );
