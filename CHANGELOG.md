@@ -1,3 +1,9 @@
+## 0.7.0 - 2022-09-17
+
+* feat: add `HeroIconStyle` enum
+* feat: add mini icons
+* feat: raise Dart SDK min version to 2.17.0
+
 ## 0.6.0 - 2022-06-15
 
 * feat: use size from `IconTheme` if none is given
