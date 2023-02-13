@@ -32,7 +32,21 @@ You can also run `flutter pub add heroicons` to quickly add latest version from 
 
 ## Development
 
-Run source code generation to create `heroicons.dart` file with named constructor for every icon.
+Fetch new icons and automatically generate source code for `heroicons.dart`
+
+```
+dart tool/generator.dart
+```
+
+### Extra Commands
+
+Just fetch new icons and organize into `assets/`
+
+```
+dart tool/fetch_icons.dart
+```
+
+Run source code generation to create `heroicons.dart` file with enum entry for every icon.
 
 ```
 dart tool/generator.dart
