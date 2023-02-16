@@ -122,26 +122,30 @@ class HeroIcon extends StatelessWidget {
     final size = this.size ?? IconTheme.of(context).size ?? 24.0;
 
     // Render in an SvgPicture.
-    final iconWidget = SvgPicture.asset(
-      '$iconPath.svg',
+    final iconWidget = FittedBox(
+      fit: BoxFit.scaleDown,
+      child: SvgPicture.asset(
+        '$iconPath.svg',
 
-      // This colorFilter replaces the old way of specifying an SVG color -
-      // where BlendMode was left as the default srcIn (now explicitly set)
-      // and the color was set with the color property.
-      //
-      // IconTheme specifies black as a fallback color, however we cannot rely
-      // on this as there may be a case where an IconTheme cannot be found at
-      // all causing IconTheme.of(context).color to be null, hence black is
-      // manually specified as a default.
-      colorFilter: ColorFilter.mode(
-        color ?? IconTheme.of(context).color ?? Colors.black,
-        BlendMode.srcIn,
+        // This colorFilter replaces the old way of specifying an SVG color -
+        // where BlendMode was left as the default srcIn (now explicitly set)
+        // and the color was set with the color property.
+        //
+        // IconTheme specifies black as a fallback color, however we cannot rely
+        // on this as there may be a case where an IconTheme cannot be found at
+        // all causing IconTheme.of(context).color to be null, hence black is
+        // manually specified as a default.
+        colorFilter: ColorFilter.mode(
+          color ?? IconTheme.of(context).color ?? Colors.black,
+          BlendMode.srcIn,
+        ),
+
+        // Likewise, default values are specified for width and height.
+        width: size,
+        height: size,
+        alignment: Alignment.center,
+        fit: BoxFit.contain,
       ),
-
-      // Likewise, default values are specified for width and height.
-      width: size,
-      height: size,
-      alignment: Alignment.center,
     );
 
     return Semantics(

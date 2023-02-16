@@ -1,4 +1,5 @@
 ## 0.8.0
+* fix: solve problems when reducing size of icon
 * feat: Add `HeroIconTheme` InheritedWidget (can be used to set HeroIcon style globally)
 * feat: generate semantic labels automatically (and allow manual ones to be specified)
 * chore: update HeroIcons to `v2.0.15`
