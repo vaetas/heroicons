@@ -1,23 +1,23 @@
 name: heroicons
-description: HeroIcons set of SVG icons in your Flutter app. Both outlined & solid icon version are available.
-version: 0.8.0
+description: Easily use the heroicons set in your Flutter app.
+version: 0.8.1
 homepage: https://github.com/vaetas/heroicons
 
 environment:
-  sdk: ">=2.17.0 <3.0.0"
+  sdk: ">=2.17.0 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  flutter_svg: ^2.0.0+1
-  path: ^1.8.2
+  flutter_svg: ^2.0.7
+  path: ^1.8.3
 
 dev_dependencies:
-  code_builder: ^4.3.0
-  dart_style: ^2.2.4
-  recase: ^4.0.0
+  code_builder: ^4.5.0
+  dart_style: ^2.3.2
+  recase: ^4.1.0
 
 flutter:
   assets:
