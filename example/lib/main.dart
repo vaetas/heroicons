@@ -17,7 +17,12 @@ class ExampleApp extends StatelessWidget {
           color: Colors.red,
         ),
       ),
-      home: const MyHomePage(title: 'HeroIcons'),
+      home: const HeroIconTheme(
+        // .outline is the default style anyhow, but this is how you can change
+        // the default style of all HeroIcons in your app.
+        style: HeroIconStyle.outline,
+        child: MyHomePage(title: 'HeroIcons'),
+      ),
     );
   }
 }
@@ -41,12 +46,12 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(
+      body: const Center(
         child: IconTheme(
-          data: const IconThemeData(color: Colors.black),
+          data: IconThemeData(color: Colors.black),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: const <Widget>[
+            children: <Widget>[
               HeroIcon(HeroIcons.arrowLeft),
               HeroIcon(HeroIcons.arrowRight),
               HeroIcon(HeroIcons.calendar),
