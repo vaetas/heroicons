@@ -1,3 +1,6 @@
+## 0.9.0
+*  feat: bump SDK version constraints to include Dart 3
+
 ## 0.8.0
 * fix: solve problems when reducing size of icon
 * feat: Add `HeroIconTheme` InheritedWidget (can be used to set HeroIcon style globally)
