@@ -11,8 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_svg: ^2.0.7
-  path: ^1.8.3
+  flutter_svg: ^2.0.10+1
+  path: ^1.9.0
 
 dev_dependencies:
   code_builder: ^4.5.0
