@@ -59,9 +59,17 @@ enum HeroIcons {
   arrowLeftCircle._('arrow-left-circle',
       defaultSemanticLabel: "Arrow left circle icon"),
 
+  /// Arrow left end on rectangle icon
+  arrowLeftEndOnRectangle._('arrow-left-end-on-rectangle',
+      defaultSemanticLabel: "Arrow left end on rectangle icon"),
+
   /// Arrow left on rectangle icon
   arrowLeftOnRectangle._('arrow-left-on-rectangle',
       defaultSemanticLabel: "Arrow left on rectangle icon"),
+
+  /// Arrow left start on rectangle icon
+  arrowLeftStartOnRectangle._('arrow-left-start-on-rectangle',
+      defaultSemanticLabel: "Arrow left start on rectangle icon"),
 
   /// Arrow left icon
   arrowLeft._('arrow-left', defaultSemanticLabel: "Arrow left icon"),
@@ -92,9 +100,17 @@ enum HeroIcons {
   arrowRightCircle._('arrow-right-circle',
       defaultSemanticLabel: "Arrow right circle icon"),
 
+  /// Arrow right end on rectangle icon
+  arrowRightEndOnRectangle._('arrow-right-end-on-rectangle',
+      defaultSemanticLabel: "Arrow right end on rectangle icon"),
+
   /// Arrow right on rectangle icon
   arrowRightOnRectangle._('arrow-right-on-rectangle',
       defaultSemanticLabel: "Arrow right on rectangle icon"),
+
+  /// Arrow right start on rectangle icon
+  arrowRightStartOnRectangle._('arrow-right-start-on-rectangle',
+      defaultSemanticLabel: "Arrow right start on rectangle icon"),
 
   /// Arrow right icon
   arrowRight._('arrow-right', defaultSemanticLabel: "Arrow right icon"),

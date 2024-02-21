@@ -94,6 +94,7 @@ Future<void> main([List<String> arguments = const []]) async {
   await processIcons('24', 'outline', toStyle: HeroIconStyle.outline);
   await processIcons('24', 'solid', toStyle: HeroIconStyle.solid);
   await processIcons('20', 'solid', toStyle: HeroIconStyle.mini);
+  await processIcons('16', 'solid', toStyle: HeroIconStyle.micro);
 
   // Finally, clear up.
   await cacheDir.delete(recursive: true);

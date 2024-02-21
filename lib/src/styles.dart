@@ -3,7 +3,8 @@
 enum HeroIconStyle {
   outline('outline'),
   solid('solid'),
-  mini('mini');
+  mini('mini'),
+  micro('micro');
 
   const HeroIconStyle(this.name);
 
