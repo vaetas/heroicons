@@ -1,3 +1,9 @@
+## 0.10.0
+* Heroicons v2.1.1
+* Add support for micro icon pack
+* Update deps
+* THANKS: @SamJakob for the PR
+
 ## 0.9.0
 *  feat: bump SDK version constraints to include Dart 3
 
