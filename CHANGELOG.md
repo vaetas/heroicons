@@ -1,16 +1,21 @@
 ## 0.11.0
+
 * Update dependencies
+* Update Heroicons to v2.2.0
 
 ## 0.10.0
+
 * Heroicons v2.1.1
 * Add support for micro icon pack
 * Update deps
 * THANKS: @SamJakob for the PR
 
 ## 0.9.0
-*  feat: bump SDK version constraints to include Dart 3
+
+* feat: bump SDK version constraints to include Dart 3
 
 ## 0.8.0
+
 * fix: solve problems when reducing size of icon
 * feat: Add `HeroIconTheme` InheritedWidget (can be used to set HeroIcon style globally)
 * feat: generate semantic labels automatically (and allow manual ones to be specified)

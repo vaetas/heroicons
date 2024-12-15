@@ -10,8 +10,8 @@ images.
   -->
 
   This package was last updated to use [heroicons](https://heroicons.com/)
-  version [`2.1.1`](https://github.com/tailwindlabs/heroicons/releases/tag/v2.1.1)
-  (on `February 21st, 2024`). If there's a newer version of HeroIcons available, please
+  version [`2.2.0`](https://github.com/tailwindlabs/heroicons/releases/tag/v2.2.0)
+  (on `December 15th, 2024`). If there's a newer version of HeroIcons available, please
   create an issue or pull request.
 
 <!-- end:heroicons_version -->
@@ -52,14 +52,7 @@ class MyApp extends StatelessWidget {
 
 ## Install
 
-Add `heroicons` package into your `pubspec.yaml`.
-
-```yaml
-dependencies:
-  heroicons: # Latest version
-```
-
-You can also run `flutter pub add heroicons` to quickly add latest version from your CLI.
+Run `flutter pub add heroicons` to quickly add latest version from your CLI.
 
 ## Development
 

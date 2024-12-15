@@ -23,30 +23,20 @@ class ExampleApp extends StatelessWidget {
         // .outline is the default style anyhow, but this is how you can change
         // the default style of all HeroIcons in your app.
         style: HeroIconStyle.outline,
-        child: MyHomePage(title: 'HeroIcons'),
+        child: HomeScreen(),
       ),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({
-    super.key,
-    required this.title,
-  });
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
 
-  final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Text('HeroIcons'),
       ),
       body: const Center(
         child: IconTheme(
