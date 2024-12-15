@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:heroicons/heroicons.dart';
 
-void main() => runApp(const ExampleApp());
+void main() {
+  runApp(const ExampleApp());
+}
 
 class ExampleApp extends StatelessWidget {
-  const ExampleApp({Key? key}) : super(key: key);
+  const ExampleApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -29,9 +31,9 @@ class ExampleApp extends StatelessWidget {
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({
-    Key? key,
+    super.key,
     required this.title,
-  }) : super(key: key);
+  });
 
   final String title;
 
@@ -71,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
               IconTheme(
                 data: IconThemeData(
                   size: 40,
-                  color: Colors.blue,
+                  color: Colors.red,
                 ),
                 child: HeroIcon(HeroIcons.calendar, style: HeroIconStyle.solid),
               ),

@@ -1,3 +1,6 @@
+## 0.11.0
+* Update dependencies
+
 ## 0.10.0
 * Heroicons v2.1.1
 * Add support for micro icon pack
