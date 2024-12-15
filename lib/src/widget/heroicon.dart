@@ -3,10 +3,10 @@ library heroicons;
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:heroicons/src/styles.dart';
 import 'package:path/path.dart' as path;
 
-import '../icons.g.dart';
+import '/src/icons.g.dart';
+import '/src/styles.dart';
 
 /// Similarly to [IconTheme], you can set the default options for all icons.
 /// Simply add [HeroIconTheme] to the widget tree, ideally as close to your
@@ -40,7 +40,10 @@ class HeroIconTheme extends InheritedWidget {
   });
 
   static bool shouldUseSemanticLabel(BuildContext context) {
-    return context.dependOnInheritedWidgetOfExactType<HeroIconTheme>()?.useDefaultSemanticLabel ?? false;
+    return context
+            .dependOnInheritedWidgetOfExactType<HeroIconTheme>()
+            ?.useDefaultSemanticLabel ??
+        false;
   }
 
   /// Attempts to get the [style] from an ancestor [HeroIconTheme] widget.
@@ -60,7 +63,8 @@ class HeroIconTheme extends InheritedWidget {
   }
 
   @override
-  bool updateShouldNotify(covariant HeroIconTheme oldWidget) => style != oldWidget.style;
+  bool updateShouldNotify(covariant HeroIconTheme oldWidget) =>
+      style != oldWidget.style;
 }
 
 /// Similarly to Material Icons, use [HeroIcon] Widget to display HeroIcon.
@@ -110,10 +114,13 @@ class HeroIcon extends StatelessWidget {
     // Use the explicit style name, if specified. Otherwise, check if there is
     // a HeroIconTheme to use. Finally, if none of these are available, resort
     // to 'outline' as a default.
-    final styleName = (style ?? HeroIconTheme.maybeStyleOf(context) ?? HeroIconStyle.outline).name;
+    final styleName =
+        (style ?? HeroIconTheme.maybeStyleOf(context) ?? HeroIconStyle.outline)
+            .name;
 
     // Locate the icon asset.
-    final iconPath = path.join('packages/heroicons/assets/$styleName/', icon.name);
+    final iconPath =
+        path.join('packages/heroicons/assets/$styleName/', icon.name);
 
     // Determine the size of the icon. Ideally, use the value specified,
     // otherwise default to that of the icon theme. Finally, if the IconTheme
@@ -149,7 +156,10 @@ class HeroIcon extends StatelessWidget {
     );
 
     return Semantics(
-      label: semanticLabel ?? (HeroIconTheme.shouldUseSemanticLabel(context) ? icon.defaultSemanticLabel : null),
+      label: semanticLabel ??
+          (HeroIconTheme.shouldUseSemanticLabel(context)
+              ? icon.defaultSemanticLabel
+              : null),
       child: ExcludeSemantics(
         child: iconWidget,
       ),
@@ -159,8 +169,10 @@ class HeroIcon extends StatelessWidget {
   @override
   void debugFillProperties(DiagnosticPropertiesBuilder properties) {
     super.debugFillProperties(properties);
-    properties.add(StringProperty('icon', icon.name, ifEmpty: '<empty>', showName: false));
-    properties.add(StringProperty('style', style?.name, ifEmpty: '<empty>', showName: false));
+    properties.add(
+        StringProperty('icon', icon.name, ifEmpty: '<empty>', showName: false));
+    properties.add(StringProperty('style', style?.name,
+        ifEmpty: '<empty>', showName: false));
     properties.add(DoubleProperty('size', size, defaultValue: null));
     properties.add(ColorProperty('color', color, defaultValue: null));
   }

@@ -26,7 +26,8 @@ Future<void> main() async {
             b.constructorName = '_';
             b.arguments.add(literal(name));
             // FIXME: need to be updated with result of https://github.com/dart-lang/code_builder/issues/397
-            b.arguments.add(CodeExpression(Code('defaultSemanticLabel: "${recase.sentenceCase} icon"')));
+            b.arguments.add(CodeExpression(
+                Code('defaultSemanticLabel: "${recase.sentenceCase} icon"')));
             b.docs.add('/// ${recase.sentenceCase} icon');
           });
         }),
@@ -41,10 +42,13 @@ Future<void> main() async {
           Field((b) {
             b.name = 'defaultSemanticLabel';
             b.type = Reference("final String?");
-            b.docs.add('/// Specifies the default semantic label for the icon.');
-            b.docs.add('/// This can be read by TalkBack/VoiceOver in the event that another is not');
+            b.docs
+                .add('/// Specifies the default semantic label for the icon.');
+            b.docs.add(
+                '/// This can be read by TalkBack/VoiceOver in the event that another is not');
             b.docs.add('/// manually supplied.');
-            b.docs.add('/// This is automatically generated based on the name of the icon.');
+            b.docs.add(
+                '/// This is automatically generated based on the name of the icon.');
           }),
         ],
       )
@@ -73,7 +77,9 @@ Future<void> main() async {
 
   final emitter = DartEmitter();
   final x = lib.accept(emitter);
-  await file.writeAsString(DartFormatter().format(
+  await file.writeAsString(DartFormatter(
+    languageVersion: null,
+  ).format(
     '// Auto-generated file.\n'
     '// DO NOT MODIFY BY HAND - YOUR CHANGES WILL BE OVERWRITTEN.\n'
     '\n'
@@ -85,7 +91,11 @@ Future<void> main() async {
 }
 
 Future<List<String>> _getFileNames() async {
-  return await Directory(p.join('assets', 'outline')).list().where((entity) => entity.name.endsWith('.svg')).map((entity) => entity.name).toList();
+  return await Directory(p.join('assets', 'outline'))
+      .list()
+      .where((entity) => entity.name.endsWith('.svg'))
+      .map((entity) => entity.name)
+      .toList();
 }
 
 extension on FileSystemEntity {
