@@ -1,0 +1,32 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - lib/**.g.dart
+    - lib/**.freezed.dart
+    - lib/**.gr.dart
+    - lib/**.moor.dart
+    - lib/generated/** # Generated locale code by intl
+    - lib/**/**.config.dart
+    - lib/api/**
+    - lib/**/**.pbgrpc.dart
+    - lib/**/**.pb.dart
+    - lib/**/**.pbenum.dart
+    - lib/**/**.pbjson.dart
+
+  # See https://dart.dev/guides/language/analysis-options#enabling-additional-type-checks
+
+  errors:
+    missing_required_param: warning
+    missing_return: warning
+  language:
+    strict-casts: true
+    strict-raw-types: true
+
+linter:
+  rules:
+    prefer_single_quotes: true
+
+# Additional information about this file can be found at
+# https://dart.dev/tools/analysis

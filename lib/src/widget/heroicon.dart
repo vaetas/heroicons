@@ -81,6 +81,7 @@ class HeroIconTheme extends InheritedWidget {
 class HeroIcon extends StatelessWidget {
   const HeroIcon(
     this.icon, {
+    super.key,
     this.color,
     this.size,
     this.style,

@@ -16,6 +16,7 @@ dependencies:
 dev_dependencies:
   code_builder: ^4.10.1
   dart_style: ^3.0.0
+  flutter_lints: ^5.0.0
   recase: ^4.1.0
 
 flutter:

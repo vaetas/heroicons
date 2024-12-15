@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'dart:io';
 
 import 'package:code_builder/code_builder.dart';
@@ -36,12 +38,12 @@ Future<void> main() async {
         [
           Field((b) {
             b.name = 'name';
-            b.type = Reference("final String");
+            b.type = Reference('final String');
             b.docs.add('/// The name of the icon file.');
           }),
           Field((b) {
             b.name = 'defaultSemanticLabel';
-            b.type = Reference("final String?");
+            b.type = Reference('final String?');
             b.docs
                 .add('/// Specifies the default semantic label for the icon.');
             b.docs.add(
@@ -78,7 +80,7 @@ Future<void> main() async {
   final emitter = DartEmitter();
   final x = lib.accept(emitter);
   await file.writeAsString(DartFormatter(
-    languageVersion: null,
+    languageVersion: DartFormatter.latestLanguageVersion,
   ).format(
     '// Auto-generated file.\n'
     '// DO NOT MODIFY BY HAND - YOUR CHANGES WILL BE OVERWRITTEN.\n'
