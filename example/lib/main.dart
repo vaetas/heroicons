@@ -34,11 +34,20 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final primaryButtonStyle = ButtonStyle(
+      foregroundColor: const WidgetStatePropertyAll(
+        Colors.blue,
+      ),
+      iconColor: const WidgetStatePropertyAll(
+        Colors.red,
+      ),
+    );
+
     return Scaffold(
       appBar: AppBar(
         title: Text('HeroIcons'),
       ),
-      body: const Center(
+      body: Center(
         child: IconTheme(
           data: IconThemeData(color: Colors.black),
           child: Column(
@@ -73,6 +82,28 @@ class HomeScreen extends StatelessWidget {
                   color: Colors.blue,
                 ),
                 child: HeroIcon(HeroIcons.calendar, style: HeroIconStyle.mini),
+              ),
+              OutlinedButton(
+                style: primaryButtonStyle,
+                onPressed: () {
+                  debugPrint('[HomeScreen.build] Clicked');
+                },
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    HeroIcon(
+                      HeroIcons.plus,
+                      size: 20,
+                      style: HeroIconStyle.mini,
+                    ),
+                    SizedBox(
+                      width: 6,
+                    ),
+                    Text(
+                      'Button',
+                    )
+                  ],
+                ),
               ),
             ],
           ),
